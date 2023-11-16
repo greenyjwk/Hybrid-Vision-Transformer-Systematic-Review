@@ -13,7 +13,7 @@
 | [TransFuse[1]](https://github.com/Rayicer/TransFuse) | 2021 | ViT + CNN / Parallel | Segmentation | Prostate Multi-modality MRIs from the Medical Segmentation Decathlon | MRI | MRIs from 32 patients, with volume shape of 20×320×3 |
 | U-net transformer[2] | 2021 | ViT + CNN / Fusing | Segmentation | TCIA pancreas dataset / Internal multi-organ dataset(IMO) | CT | TCIA: 82 CT-scans and Multi-Organ(IMO): 85 CT-scans|
 | [UTNet[3]](https://github.com/yhygao/UTNet) | 2021 | ViT + CNN / Stacking | Segmentation | multilabel, multi-vendor cardiac MRI cohort | MRI | 75 MRI from Siemens, 75 MRI from Philips
-| Bitr-unet[4] | 2021 | ViT + CNN / Fusing | Segmentation | BRaTS dataset | MRI |
+| [Bitr-unet[4]](https://github.com/BruceResearch/BiTr-Unet) | 2021 | ViT + CNN / Fusing | Segmentation | BRaTS dataset | MRI |
 | After-unet[5] | 2021 | ViT + CNN / Fusing | Segmentation | Abdomen CT Image | CT |
 | [6]A transformer-based framework for automatic COVID19 diagnosis in chest CTs | 2021 | Swin ViT + CNN / Stacking | Segmentation + Classification | MIA-COV19D competition dataset | CT |
 | [7]Unsupervised MRI reconstruction via zero-shot learned adversarial transformers | 2022 | Swin ViT + CNN / Gen NN / | Reconstruction | single-coil brain MRI data from IXI + fastMRI | MRI |
