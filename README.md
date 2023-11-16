@@ -20,4 +20,4 @@
 | Multi-view analysis of unregistered medical images using cross-view transformers | 2021 | ViT + CNN / Stacking | Combining multiple MR Image View without registration | CheXpert, CBIS-DDSM | MRI |
 
 
-| Learning to generate clinically coherent chest X-ray reports | 2021 | ViT + CNN / Stacking | Combining multiple MR Image View without registration | MIMIC-CXR | X-rays |
+| Learning to generate clinically coherent chest X-ray reports | 2021 | ViT + CNN / Stacking | Combining multiple MR Image View without registration | MIMIC-CXR | X-ray |
