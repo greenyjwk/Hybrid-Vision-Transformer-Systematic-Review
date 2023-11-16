@@ -10,7 +10,7 @@
 ### Study Selection
 | Title | Year | Hybrid Design | Task | Dataset | Modality | Input Size
 | ------------------------- |  -------- | -------- | -------- | -------- | -------- | -------- | 
-| TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation | 2021 | ViT + CNN / Parallel | Segmentation | Prostate Multi-modality MRIs from the Medical Segmentation Decathl | MRI |
+| [1]  | 2021 | ViT + CNN / Parallel | Segmentation | Prostate Multi-modality MRIs from the Medical Segmentation Decathl | MRI |
 | U-net transformer: Self and cross attention for medical image segmentation | 2021 | ViT + CNN / Fusing | Segmentation | TCIA | CT |
 | UTNet: A Hybrid Transformer Architecture for Medical Image Segmentation | 2021 | ViT + CNN / Stacking | Segmentation | multi-vendor cardiac magnetic resonance imaging | MRI |
 | Bitr-unet: a cnn-transformer combined network for mri brain tumor segmentation | 2021 | ViT + CNN / Fusing | Segmentation | BRaTS dataset | MRI |
@@ -22,3 +22,8 @@
 | Multi-view analysis of unregistered medical images using cross-view transformers | 2021 | ViT + CNN / Stacking | Combining multiple MR Image View without registration | CheXpert and CBIS-DDSM | MRI |
 | PubMedCLIP: How Much Does CLIP Benefit Visual Question Answering in the Medical Domain? | 2021 | ViT + CNN / Stacking | Vision Question and answer | VQA-RAD and SLAKE | X-ray |
 | Ultrasound video transformers for cardiac ejection fraction estimation | 2021 | ViT + CNN / Stacking | Cardiac Ejection Fraction Prediction | Echonet-Dynamic dataset | Ultrasound |
+
+
+
+# Reference
+1. TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation
