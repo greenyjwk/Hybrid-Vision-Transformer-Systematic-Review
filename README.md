@@ -1,8 +1,8 @@
 # Hybrid-Vision-Transformer-Systematic-Review
 
 
-| Header 1 | Header 2 | Header 3 |
+| Title | Year | Header 3 |
 | -------- | -------- | -------- |
-| Content 1 | Content 2 | Content 3 |
-| More 1    | More 2    | More 3    |
-
+| TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation | 2021 | ViT + CNN |
+| U-net transformer: Self and cross attention for medical image segmentation | 2021 | ViT + CNN |
+| UTNet: A Hybrid Transformer Architecture for Medical Image Segmentation | 2021 | ViT + CNN |
