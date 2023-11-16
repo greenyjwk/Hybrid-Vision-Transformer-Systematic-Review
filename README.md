@@ -1,4 +1,4 @@
-# Hybrid-Vision-Transformer-Systematic-Review
+# Hybrid Vision-Transformer Systematic Review
 
 
 ### Hybrid Design Category
