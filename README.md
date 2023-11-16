@@ -4,7 +4,7 @@
 ### Hybrid Design Category
 - Parallel: ViT and other technique are located in parallel
 - Fusing: ViT between Encdoer and Decoder
-- Generative Model: Vit in Gen NN
+- Generative Model: ViT in Generative Model
 
 | Title | Year | Hybrid Design | Task | Dataset | Modality |
 | ------------------------- |  -------- | -------- | -------- | -------- | -------- |
@@ -14,4 +14,5 @@
 | Bitr-unet: a cnn-transformer combined network for mri brain tumor segmentation | 2021 | ViT + CNN / Fusing | BRaTS dataset | Segmentation | MRI |
 | After-unet: Axial fusion transformer unet for medical image segmentation | 2021 | ViT + CNN / Fusing | Abdomen CT Image | Segmentation | CT |
 | A transformer-based framework for automatic COVID19 diagnosis in chest CTs | 2021 | Swin ViT + CNN / Stacking | MIA-COV19D competition dataset | Segmentation + Classification | CT |
-| Unsupervised MRI reconstruction via zero-shot learned adversarial transformers | 2022 | Swin ViT + CNN / Vit in Gen NN | single-coil brain MRI data from IXI + fastMRI  | Reconstruction | MRI |
+| Unsupervised MRI reconstruction via zero-shot learned adversarial transformers | 2022 | Swin ViT + CNN / Generative Model | single-coil brain MRI data from IXI + fastMRI  | Reconstruction | MRI |
+| Mr image super resolution by combining feature disentanglement cnns and vision transformers | 2022 | Swin ViT + CNN / Generative Model | fastMRI and The IXI dataset | Restoration | MRI |
