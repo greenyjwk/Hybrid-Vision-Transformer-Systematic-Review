@@ -10,7 +10,7 @@
 ### Study Selection
 | Title/Code | Year | Hybrid Design | Task | Dataset | Modality | Input Size
 | ------------------------- |  -------- | -------- | -------- | -------- | -------- | -------- | 
-| [TransFuse[1]]([https://www.example.com](https://github.com/Rayicer/TransFuse)) | 2021 | ViT + CNN / Parallel | Segmentation | Prostate Multi-modality MRIs from the Medical Segmentation Decathlon | MRI | MRIs from 32 patients, with volume shape of 20×320×3
+| [TransFuse[1]]([https://www.example.com](https://github.com/Rayicer/TransFuse) | 2021 | ViT + CNN / Parallel | Segmentation | Prostate Multi-modality MRIs from the Medical Segmentation Decathlon | MRI | MRIs from 32 patients, with volume shape of 20×320×3
 | U-net transformer[2] | 2021 | ViT + CNN / Fusing | Segmentation | TCIA | CT |
 | UTNet[3] | 2021 | ViT + CNN / Stacking | Segmentation | multi-vendor cardiac magnetic resonance imaging | MRI |
 | Bitr-unet[4] | 2021 | ViT + CNN / Fusing | Segmentation | BRaTS dataset | MRI |
