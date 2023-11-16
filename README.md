@@ -4,7 +4,7 @@
 ### Hybrid Design Category
 - Parallel: ViT and other technique are located in parallel
 - Fusing: ViT between Encdoer and Decoder
-- Generative Model: ViT in Generative Model
+- ViT in Generative Model: Gen NN
 
 | Title | Year | Hybrid Design | Task | Dataset | Modality |
 | ------------------------- |  -------- | -------- | -------- | -------- | -------- |
@@ -14,5 +14,8 @@
 | Bitr-unet: a cnn-transformer combined network for mri brain tumor segmentation | 2021 | ViT + CNN / Fusing | Segmentation | BRaTS dataset | MRI |
 | After-unet: Axial fusion transformer unet for medical image segmentation | 2021 | ViT + CNN / Fusing | Segmentation | Abdomen CT Image | CT |
 | A transformer-based framework for automatic COVID19 diagnosis in chest CTs | 2021 | Swin ViT + CNN / Stacking | Segmentation + Classification | MIA-COV19D competition dataset | CT |
-| Unsupervised MRI reconstruction via zero-shot learned adversarial transformers | 2022 | Swin ViT + CNN / Generative Model | Reconstruction | single-coil brain MRI data from IXI + fastMRI | MRI |
-| Mr image super resolution by combining feature disentanglement cnns and vision transformers | 2022 | Swin ViT + CNN / Generative Model | Restoration | fastMRI and The IXI dataset | MRI |
+| Unsupervised MRI reconstruction via zero-shot learned adversarial transformers | 2022 | Swin ViT + CNN / Gen NN / | Reconstruction | single-coil brain MRI data from IXI + fastMRI | MRI |
+| Mr image super resolution by combining feature disentanglement cnns and vision transformers | 2022 | Swin ViT + CNN / / Gen NN | Restoration | fastMRI and The IXI dataset | MRI |
+
+
+| Learning dual transformer network for diffeomorphic registration | 2022 | Swin ViT + CNN / Gen NN / Stacking | Registration | OASIS with 425 T1-weighted brain MRI scans | MRI |
