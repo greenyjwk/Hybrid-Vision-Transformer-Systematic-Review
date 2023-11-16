@@ -11,7 +11,7 @@
 | Title/Code | Year | Hybrid Design | Task | Dataset | Modality | Input Size
 | ------------------------- |  -------- | -------- | -------- | -------- | -------- | -------- | 
 | [TransFuse[1]](https://github.com/Rayicer/TransFuse) | 2021 | ViT + CNN / Parallel | Segmentation | Prostate Multi-modality MRIs from the Medical Segmentation Decathlon | MRI | MRIs from 32 patients, with volume shape of 20×320×3 |
-| U-net transformer[2] | 2021 | ViT + CNN / Fusing | Segmentation | TCIA pancreas dataset / An internal multi-organ dataset | CT |  82 CT-scans, Each CT-scan has around 181 ∼ 466 slices of 512 × 512 |
+| U-net transformer[2] | 2021 | ViT + CNN / Fusing | Segmentation | TCIA pancreas dataset / Internal multi-organ dataset(IMO) | CT | TCIA: 82 CT-scans and Multi-Organ(IMO): 85 CT-scans|
 | UTNet[3] | 2021 | ViT + CNN / Stacking | Segmentation | multi-vendor cardiac magnetic resonance imaging | MRI |
 | Bitr-unet[4] | 2021 | ViT + CNN / Fusing | Segmentation | BRaTS dataset | MRI |
 | After-unet[5] | 2021 | ViT + CNN / Fusing | Segmentation | Abdomen CT Image | CT |
