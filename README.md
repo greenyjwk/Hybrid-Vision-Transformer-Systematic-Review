@@ -8,7 +8,7 @@
 
 
 ### Study Selection
-| Title | Year | Hybrid Design | Task | Dataset | Modality | Parameter Size
+| Title | Year | Hybrid Design | Task | Dataset | Modality | Input Size
 | ------------------------- |  -------- | -------- | -------- | -------- | -------- | -------- | 
 | TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation | 2021 | ViT + CNN / Parallel | Segmentation | Prostate Multi-modality MRIs from the Medical Segmentation Decathl | MRI |
 | U-net transformer: Self and cross attention for medical image segmentation | 2021 | ViT + CNN / Fusing | Segmentation | TCIA | CT |
