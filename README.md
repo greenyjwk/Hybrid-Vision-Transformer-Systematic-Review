@@ -18,3 +18,6 @@
 | Mr image super resolution by combining feature disentanglement cnns and vision transformers | 2022 | Swin ViT + CNN / Gen NN /  | Restoration | fastMRI and The IXI dataset | MRI |
 | Learning dual transformer network for diffeomorphic registration | 2021 | ViT + CNN / Gen NN / Stacking | Registration | OASIS with 425 T1-weighted brain MRI scans | MRI |
 | Multi-view analysis of unregistered medical images using cross-view transformers | 2021 | ViT + CNN / Stacking | Combining multiple MR Image View without registration | CheXpert, CBIS-DDSM | MRI |
+
+
+| Learning to generate clinically coherent chest X-ray reports | 2021 | ViT + CNN / Stacking | Combining multiple MR Image View without registration | MIMIC-CXR | X-rays |
