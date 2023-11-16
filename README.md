@@ -14,13 +14,13 @@
 | U-net transformer[2] | 2021 | ViT + CNN / Fusing | Segmentation | TCIA | CT |
 | UTNet[3] | 2021 | ViT + CNN / Stacking | Segmentation | multi-vendor cardiac magnetic resonance imaging | MRI |
 | Bitr-unet[4] | 2021 | ViT + CNN / Fusing | Segmentation | BRaTS dataset | MRI |
-| After-unet[5]: Axial fusion transformer unet for medical image segmentation | 2021 | ViT + CNN / Fusing | Segmentation | Abdomen CT Image | CT |
-| A transformer-based framework for automatic COVID19 diagnosis in chest CTs | 2021 | Swin ViT + CNN / Stacking | Segmentation + Classification | MIA-COV19D competition dataset | CT |
-| Unsupervised MRI reconstruction via zero-shot learned adversarial transformers | 2022 | Swin ViT + CNN / Gen NN / | Reconstruction | single-coil brain MRI data from IXI + fastMRI | MRI |
-| Mr image super resolution by combining feature disentanglement cnns and vision transformers | 2022 | Swin ViT + CNN / Gen NN /  | Restoration | fastMRI and The IXI dataset | MRI |
-| Learning dual transformer network for diffeomorphic registration | 2021 | ViT + CNN / Gen NN / Stacking | Registration | OASIS with 425 T1-weighted brain MRI scans | MRI |
-| Multi-view analysis of unregistered medical images using cross-view transformers | 2021 | ViT + CNN / Stacking | Combining multiple MR Image View without registration | CheXpert and CBIS-DDSM | MRI |
-| PubMedCLIP: How Much Does CLIP Benefit Visual Question Answering in the Medical Domain? | 2021 | ViT + CNN / Stacking | Vision Question and answer | VQA-RAD and SLAKE | X-ray |
+| After-unet[5] | 2021 | ViT + CNN / Fusing | Segmentation | Abdomen CT Image | CT |
+| [6]A transformer-based framework for automatic COVID19 diagnosis in chest CTs | 2021 | Swin ViT + CNN / Stacking | Segmentation + Classification | MIA-COV19D competition dataset | CT |
+| [7]Unsupervised MRI reconstruction via zero-shot learned adversarial transformers | 2022 | Swin ViT + CNN / Gen NN / | Reconstruction | single-coil brain MRI data from IXI + fastMRI | MRI |
+| [8]Mr image super resolution by combining feature disentanglement cnns and vision transformers | 2022 | Swin ViT + CNN / Gen NN /  | Restoration | fastMRI and The IXI dataset | MRI |
+| [9]Learning dual transformer network for diffeomorphic registration | 2021 | ViT + CNN / Gen NN / Stacking | Registration | OASIS with 425 T1-weighted brain MRI scans | MRI |
+| [10]Multi-view analysis of unregistered medical images using cross-view transformers | 2021 | ViT + CNN / Stacking | Combining multiple MR Image View without registration | CheXpert and CBIS-DDSM | MRI |
+| PubMedCLIP[11] | 2021 | ViT + CNN / Stacking | Vision Question and answer | VQA-RAD and SLAKE | X-ray |
 | Ultrasound video transformers for cardiac ejection fraction estimation | 2021 | ViT + CNN / Stacking | Cardiac Ejection Fraction Prediction | Echonet-Dynamic dataset | Ultrasound |
 
 
@@ -31,6 +31,9 @@
 3. UTNet: A Hybrid Transformer Architecture for Medical Image Segmentation
 4. Bitr-unet: a cnn-transformer combined network for mri brain tumor segmentation
 5. After-unet: Axial fusion transformer unet for medical image segmentation
-6. a
+6. A transformer-based framework for automatic COVID19 diagnosis in chest CTs
 7. a
-8. 
+8. a
+9. a
+10. a
+11. PubMedCLIP: How Much Does CLIP Benefit Visual Question Answering in the Medical Domain?
