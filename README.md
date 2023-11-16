@@ -11,7 +11,7 @@
 | Title | Year | Hybrid Design | Task | Dataset | Modality | Input Size
 | ------------------------- |  -------- | -------- | -------- | -------- | -------- | -------- | 
 | [1]  | 2021 | ViT + CNN / Parallel | Segmentation | Prostate Multi-modality MRIs from the Medical Segmentation Decathl | MRI |
-| U-net transformer: Self and cross attention for medical image segmentation | 2021 | ViT + CNN / Fusing | Segmentation | TCIA | CT |
+| [2] | 2021 | ViT + CNN / Fusing | Segmentation | TCIA | CT |
 | UTNet: A Hybrid Transformer Architecture for Medical Image Segmentation | 2021 | ViT + CNN / Stacking | Segmentation | multi-vendor cardiac magnetic resonance imaging | MRI |
 | Bitr-unet: a cnn-transformer combined network for mri brain tumor segmentation | 2021 | ViT + CNN / Fusing | Segmentation | BRaTS dataset | MRI |
 | After-unet: Axial fusion transformer unet for medical image segmentation | 2021 | ViT + CNN / Fusing | Segmentation | Abdomen CT Image | CT |
@@ -27,3 +27,5 @@
 
 # Reference
 1. TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation
+2. U-net transformer: Self and cross attention for medical image segmentation
+3. UTNet: A Hybrid Transformer Architecture for Medical Image Segmentation
