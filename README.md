@@ -6,6 +6,8 @@
 - Fusing: ViT between Encdoer and Decoder
 - ViT in Generative Model: Gen NN
 
+
+### Study Selection
 | Title | Year | Hybrid Design | Task | Dataset | Modality |
 | ------------------------- |  -------- | -------- | -------- | -------- | -------- |
 | TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation | 2021 | ViT + CNN / Parallel | Segmentation | Prostate Multi-modality MRIs from the Medical Segmentation Decathl | MRI |
