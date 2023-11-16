@@ -1,8 +1,8 @@
 # Hybrid-Vision-Transformer-Systematic-Review
 
-## Parallel: ViT and other technique are located in parallel
-## Fusing: ViT between Encdoer and Decoder
-## Generative Model: Vit in Gen NN
+### Parallel: ViT and other technique are located in parallel
+### Fusing: ViT between Encdoer and Decoder
+### Generative Model: Vit in Gen NN
 
 | Title | Year | Hybrid Type / Design | Task | Dataset | Modality |
 | ------------------------- |  -------- | -------- | -------- | -------- | -------- |
