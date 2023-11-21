@@ -11,11 +11,11 @@
 | Title/Code | Year | Hybrid Design | Task | Dataset | Modality | Input Size
 | ------------------------- |  -------- | -------- | -------- | -------- | -------- | -------- | 
 | [TransFuse[1]](https://github.com/Rayicer/TransFuse) | 2021 | ViT + CNN / Parallel | Segmentation | Prostate Multi-modality MRIs from the Medical Segmentation Decathlon | MRI | MRIs from 32 patients, with volume shape of 20×320×3 |
-| U-net transformer[2] | 2021 | ViT + CNN / Fusing | Segmentation | TCIA pancreas dataset / Internal multi-organ dataset(IMO) | CT | TCIA: 82 CT-scans and Multi-Organ(IMO): 85 CT-scans|
+| U-net transformer[2] | 2021 | ViT + CNN / Fusing | Segmentation | TCIA pancreas dataset / Internal multi-organ dataset(IMO) | CT | TCIA: 82 CT-scans and Multi-Organ(IMO): 85 CT Scans|
 | [UTNet[3]](https://github.com/yhygao/UTNet) | 2021 | ViT + CNN / Stacking | Segmentation | multilabel, multi-vendor cardiac MRI cohort | MRI | 75 MRI from Siemens, 75 MRI from Philips
 | [Bitr-unet[4]](https://github.com/BruceResearch/BiTr-Unet) | 2021 | ViT + CNN / Fusing | Segmentation | BRaTS 2021 | MRI | 200 MRI Scans
 | After-unet[5] | 2021 | ViT + CNN / Fusing | Segmentation | Abdomen CT Image | CT | abdomen CT BCV:18/Thorax-85:60/SegTHOR: 30
-| [A transformer-based framework for automatic COVID19 diagnosis in chest CTs[6]](https://github.com/leizhangtech/COVID19T) | 2021 | Swin ViT + CNN / Stacking | Segmentation + Classification | MIA-COV19D competition dataset | CT |
+| [A transformer-based framework for automatic COVID19 diagnosis in chest CTs[6]](https://github.com/leizhangtech/COVID19T) | 2021 | Swin ViT + CNN / Stacking | Segmentation + Classification | MIA-COV19D competition dataset | CT | 1560 CT Scans
 | [7]Unsupervised MRI reconstruction via zero-shot learned adversarial transformers | 2022 | Swin ViT + CNN / Gen NN / | Reconstruction | single-coil brain MRI data from IXI + fastMRI | MRI |
 | [8]Mr image super resolution by combining feature disentanglement cnns and vision transformers | 2022 | Swin ViT + CNN / Gen NN /  | Restoration | fastMRI and The IXI dataset | MRI |
 | [9]Learning dual transformer network for diffeomorphic registration | 2021 | ViT + CNN / Gen NN / Stacking | Registration | OASIS with 425 T1-weighted brain MRI scans | MRI |
