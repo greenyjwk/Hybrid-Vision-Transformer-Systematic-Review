@@ -35,5 +35,5 @@
 7. a
 8. a
 9. a
-10. a
+10. Multi-view analysis of unregistered medical images using cross-view transformers
 11. PubMedCLIP: How Much Does CLIP Benefit Visual Question Answering in the Medical Domain?
