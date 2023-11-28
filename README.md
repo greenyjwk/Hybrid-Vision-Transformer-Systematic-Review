@@ -37,3 +37,4 @@
 9. Learning dual transformer network for diffeomorphic registration
 10. Multi-view analysis of unregistered medical images using cross-view transformers
 11. PubMedCLIP: How Much Does CLIP Benefit Visual Question Answering in the Medical Domain?
+12. 
