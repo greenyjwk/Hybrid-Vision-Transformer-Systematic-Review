@@ -19,7 +19,7 @@
 | [Unsupervised MRI reconstruction via zero-shot learned adversarial transformers[7]](https://github.com/icon-lab/SLATER) | 2022 | Swin ViT + CNN / Gen NN / | Reconstruction | single-coil brain MRI data from IXI + fastMRI | MRI |
 | [8]Mr image super resolution by combining feature disentanglement CNNs and vision transformers | 2022 | ViT(UNETR) + CNN / Gen NN /  | Restoration | fastMRI and The IXI dataset | MRI | fastMRI:500, IXI dataset:500 |
 | [9]Learning dual transformer network for diffeomorphic registration | 2021 | ViT + CNN / Gen NN / Stacking | Diffeomorphic Registration | OASIS with 425 T1-weighted brain MRI scans | MRI |
-| [10]Multi-view analysis of unregistered medical images using cross-view transformers | 2021 | ViT + CNN / Stacking | Combining multiple MR Image View without registration | CheXpert and CBIS-DDSM | MRI |
+| [Multi-view analysis of unregistered medical images using cross-view transformers[10]](https://github.com/gvtulder/cross-view-transformers) | 2021 | ViT + CNN / Stacking | Combining multiple MR Image View without registration | CheXpert and CBIS-DDSM | MRI |
 | PubMedCLIP[11] | 2021 | ViT + CNN / Stacking | Vision Question and answer | VQA-RAD and SLAKE | X-ray |
 | Ultrasound video transformers for cardiac ejection fraction estimation | 2021 | ViT + CNN / Stacking | Cardiac Ejection Fraction Prediction | Echonet-Dynamic dataset | Ultrasound |
 
