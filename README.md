@@ -22,6 +22,8 @@
 | [Multi-view analysis of unregistered medical images using cross-view transformers[10]](https://github.com/gvtulder/cross-view-transformers) | 2021 | ViT + CNN / Stacking | Combining multiple MR Image View without registration | CheXpert and CBIS-DDSM | MRI | cheXpert: 23628 samples, CBIS-DDSM: 708 samples
 | PubMedCLIP[11] | 2021 | ViT + CNN / Stacking | Vision Question and answer | VQA-RAD and SLAKE | X-ray |
 | Ultrasound video transformers for cardiac ejection fraction estimation | 2021 | ViT + CNN / Stacking | Cardiac Ejection Fraction Prediction | Echonet-Dynamic dataset | Ultrasound |
+| More than encoder: Introducing transformer decoder to upsample | 2022 | ViT + CNN / Stacking | Segmentation | e MSD Task01 BrainTumour dataset, Synapse dataset, ACDC dataset | MRI |
+
 
 
 # Reference
