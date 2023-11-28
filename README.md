@@ -21,8 +21,8 @@
 | Learning dual transformer network for diffeomorphic registration[9] | 2021 | ViT + CNN / Gen NN / Stacking | Diffeomorphic Registration | OASIS with 425 T1-weighted brain MRI scans | MRI |
 | [Multi-view analysis of unregistered medical images using cross-view transformers[10]](https://github.com/gvtulder/cross-view-transformers) | 2021 | ViT + CNN / Stacking | Combining multiple MR Image View without registration | CheXpert and CBIS-DDSM | MRI | cheXpert: 23628 samples, CBIS-DDSM: 708 samples
 | PubMedCLIP[11] | 2021 | ViT + CNN / Stacking | Vision Question and answer | VQA-RAD and SLAKE | X-ray |
-| Ultrasound video transformers for cardiac ejection fraction estimation | 2021 | ViT + CNN / Stacking | Cardiac Ejection Fraction Prediction | Echonet-Dynamic dataset | Ultrasound |
-| More than encoder: Introducing transformer decoder to upsample | 2022 | ViT + CNN / Stacking | Segmentation | e MSD Task01 BrainTumour dataset, Synapse dataset, ACDC dataset | MRI |
+| Ultrasound video transformers for cardiac ejection fraction estimation[12] | 2021 | ViT + CNN / Stacking | Cardiac Ejection Fraction Prediction | Echonet-Dynamic dataset | Ultrasound |
+| More than encoder: Introducing transformer decoder to upsample[13] | 2022 | ViT + CNN / Stacking | Segmentation | e MSD Task01 BrainTumour dataset, Synapse dataset, ACDC dataset | MRI |
 
 
 
@@ -38,4 +38,5 @@
 9. Learning dual transformer network for diffeomorphic registration
 10. Multi-view analysis of unregistered medical images using cross-view transformers
 11. PubMedCLIP: How Much Does CLIP Benefit Visual Question Answering in the Medical Domain?
-12. More than encoder: Introducing transformer decoder to upsample
+12. Ultrasound video transformers for cardiac ejection fraction estimation
+13. More than encoder: Introducing transformer decoder to upsample
