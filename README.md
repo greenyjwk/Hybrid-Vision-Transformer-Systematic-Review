@@ -33,7 +33,7 @@
 5. After-unet: Axial fusion transformer unet for medical image segmentation
 6. A transformer-based framework for automatic COVID19 diagnosis in chest CTs
 7. a
-8. a
-9. a
+8. Mr image super resolution by combining feature disentanglement CNNs and vision transformers
+9. Learning dual transformer network for diffeomorphic registration
 10. Multi-view analysis of unregistered medical images using cross-view transformers
 11. PubMedCLIP: How Much Does CLIP Benefit Visual Question Answering in the Medical Domain?
