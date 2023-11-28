@@ -20,9 +20,9 @@
 | MR image super resolution by combining feature disentanglement CNNs and vision transformers[8] | 2022 | ViT(UNETR) + CNN / Gen NN /  | Restoration | fastMRI and The IXI dataset | MRI | fastMRI:500, IXI dataset:500 |
 | Learning dual transformer network for diffeomorphic registration[9] | 2021 | ViT + CNN / Gen NN / Stacking | Diffeomorphic Registration | OASIS with 425 T1-weighted brain MRI scans | MRI |
 | [Multi-view analysis of unregistered medical images using cross-view transformers[10]](https://github.com/gvtulder/cross-view-transformers) | 2021 | ViT + CNN / Stacking | Combining multiple MR Image View without registration | CheXpert and CBIS-DDSM | MRI | cheXpert: 23628 samples, CBIS-DDSM: 708 samples
-| PubMedCLIP[11] | 2021 | ViT + CNN / Stacking | Vision Question and answer | VQA-RAD and SLAKE | X-ray |
-| Ultrasound video transformers for cardiac ejection fraction estimation[12] | 2021 | ViT + CNN / Stacking | Cardiac Ejection Fraction Prediction | Echonet-Dynamic dataset | Ultrasound |
-| More than encoder: Introducing transformer decoder to upsample[13] | 2022 | ViT + CNN / Stacking | Segmentation | e MSD Task01 BrainTumour dataset, Synapse dataset, ACDC dataset | MRI | MSD Brain: 484 multimodal multisite MRI data, Synapse: 30 cases, ACDC: 100 cases
+| PubMedCLIP[11] | 2021 | ViT + CNN / Stacking | Vision Question and answer | VQA-RAD and SLAKE | X-ray | 
+| Ultrasound video transformers for cardiac ejection fraction estimation[12] | 2021 | ViT + CNN / Stacking | Cardiac Ejection Fraction Prediction | Echonet-Dynamic dataset | Ultrasound | 
+| More than encoder: Introducing transformer decoder to upsample[13] | 2022 | ViT + CNN / Stacking | Segmentation | MSD Task01 BrainTumour, Synapse, ACDC | MRI | MSD Brain: 484 multimodal multisite MRI data, Synapse: 30 cases, ACDC: 100 cases
 
 
 
