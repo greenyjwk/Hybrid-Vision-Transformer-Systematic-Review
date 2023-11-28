@@ -2,8 +2,9 @@
 
 
 ### Hybrid Design Category
-- Parallel: ViT and other technique are located in parallel
-- Fusing: ViT between Encdoer and Decoder
+- Parallel: ViT and other techniques are located in parallel
+- Fusing: ViT between Encoder and Decoder
+- Stacking: ViT and CNN are implemented sequentially
 - ViT in Generative Model: Gen NN
 
 
