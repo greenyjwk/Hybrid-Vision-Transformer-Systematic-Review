@@ -25,8 +25,7 @@
 | Ultrasound video transformers for cardiac ejection fraction estimation[12] | 2021 | ViT + CNN / Stacking | Cardiac Ejection Fraction Prediction | Echonet-Dynamic dataset | Ultrasound | 
 | More than encoder: Introducing transformer decoder to upsample[13] | 2022 | ViT + CNN / Stacking | Segmentation | MSD Task01 BrainTumour, Synapse, ACDC | MRI | MSD Brain: 484 multimodal multisite MRI data, Synapse: 30 cases, ACDC: 100 cases
 | [MIST-Net[14]](https://zenodo.org/records/6368099) | 2022 | ViT + CNN / Stacking | Reconstruction | NIH-AAPM-Mayo Low-dose CT| CT |
-
-| [TECNN[14]](https://zenodo.org/records/6368099) | 2023 | ViT + CNN / parallel | Classification | BraTS 2018, Figshare | MRI |
+| [TECNN[15]](https://zenodo.org/records/6368099) | 2023 | ViT + CNN / parallel | Classification | BraTS 2018, Figshare | MRI |
 
 
 # Reference
