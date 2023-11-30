@@ -5,7 +5,7 @@
 - Parallel: ViT and other techniques are located in parallel
 - Fusing: ViT between Encoder and Decoder
 - Stacking: ViT and CNN are implemented sequentially
-- ViT in Generative Model: Gen NN
+- Gen NN: ViT in Generative Model
 
 
 ### Study Selection
