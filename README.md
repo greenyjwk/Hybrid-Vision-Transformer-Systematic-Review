@@ -24,7 +24,9 @@
 | PubMedCLIP[11] | 2021 | ViT + CNN / Stacking | Vision Question and answer | VQA-RAD and SLAKE | X-ray | 
 | Ultrasound video transformers for cardiac ejection fraction estimation[12] | 2021 | ViT + CNN / Stacking | Cardiac Ejection Fraction Prediction | Echonet-Dynamic dataset | Ultrasound | 
 | More than encoder: Introducing transformer decoder to upsample[13] | 2022 | ViT + CNN / Stacking | Segmentation | MSD Task01 BrainTumour, Synapse, ACDC | MRI | MSD Brain: 484 multimodal multisite MRI data, Synapse: 30 cases, ACDC: 100 cases
-| [MIST-Net[14]](https://zenodo.org/records/6368099) | 2022 | ViT + CNN / Stacking | Segmentation | MSD Task01 BrainTumour, Synapse, ACDC | MRI | MSD Brain: 484 multimodal multisite MRI data, Synapse: 30 cases, ACDC: 100 cases
+| [MIST-Net[14]](https://zenodo.org/records/6368099) | 2022 | ViT + CNN / Stacking | Reconstruction | NIH-AAPM-Mayo Low-dose CT| CT |
+
+| [TECNN[14]](https://zenodo.org/records/6368099) | 2023 | ViT + CNN / parallel | Classification | BraTS 2018, Figshare | MRI |
 
 
 # Reference
@@ -41,4 +43,5 @@
 11. PubMedCLIP: How Much Does CLIP Benefit Visual Question Answering in the Medical Domain?
 12. Ultrasound video transformers for cardiac ejection fraction estimation
 13. More than encoder: Introducing transformer decoder to upsample
-14. Multi-domain Integrative Swin Transformer network for Sparse-View Tomographic Reconstruction 
+14. Multi-domain Integrative Swin Transformer network for Sparse-View Tomographic Reconstruction
+15. Combining the Transformer and Convolution for Effective Brain Tumor Classification Using MRI Images
