@@ -29,6 +29,8 @@
 | Hybrid Transformer and Convolution for Medical Image Segmentation[16] | 2022 | ViT + CNN / Stacking | Segmentation | Synapse, multiorgan segmentation | CT |
 | Medical image segmentation using levit-unet++: A case study on gi tract data[17] | 2022 | ViT + CNN / Stacking | Segmentation | UW-Madison GI Tract Image Segmentation| MRI | 
 | [TransBTS[18]](https://github.com/Rubics-Xuan/TransBTS) | 2021 | ViT + CNN / Between | Segmentation | BraTS 2019/2020 | MRI | 
+| [Swin UNETR[19]](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR) | 2021 | ViT + CNN / Stacking(Swin Transformer in Encoder) | Segmentation | BraTS 2021 | MRI | 
+
 
 
 # Reference
@@ -50,3 +52,4 @@
 16. Hybrid Transformer and Convolution for Medical Image Segmentation
 17. Medical image segmentation using levit-unet++: A case study on gi tract data
 18. TransBTS: Multimodal Brain Tumor Segmentation Using Transformer
+19. Swin unetr: Swin transformers for semantic segmentation of brain tumors in mri images
