@@ -30,7 +30,7 @@
 | Medical image segmentation using levit-unet++: A case study on gi tract data[17] | 2022 | ViT + CNN / Stacking | Segmentation | UW-Madison GI Tract Image Segmentation| MRI | 
 | [TransBTS[18]](https://github.com/Rubics-Xuan/TransBTS) | 2021 | ViT + CNN / Between | Segmentation | BraTS 2019/2020 | MRI | 
 | [Swin UNETR[19]](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR) | 2021 | ViT + CNN / Stacking(Swin Transformer in Encoder) | Segmentation | BraTS 2021 | MRI | 
-| [TransCT[20]]([https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR](https://github.com/zzc623/TransCT) | 2021 | ViT + CNN / Stacking | Restoration | 2016 NIH AAPM-Mayo Clinic Low-Dose CT | CT | 
+| [TransCT[20]](https://github.com/zzc623/TransCT) | 2021 | ViT + CNN / Stacking | Restoration | 2016 NIH AAPM-Mayo Clinic Low-Dose CT | CT | 
 
 
 # Reference
