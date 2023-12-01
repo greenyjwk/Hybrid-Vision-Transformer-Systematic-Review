@@ -32,6 +32,8 @@
 | [Swin UNETR[19]](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR) | 2021 | ViT + CNN / Stacking(Swin Transformer in Encoder) | Segmentation | BraTS 2021 | MRI | 
 
 
+| [TransCT[20]]([https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR](https://github.com/zzc623/TransCT)) | 2021 | ViT + CNN / Stacking | Restoration | 2016 NIH AAPM-Mayo Clinic Low-Dose CT | CT | 
+
 
 # Reference
 1. TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation
@@ -53,3 +55,4 @@
 17. Medical image segmentation using levit-unet++: A case study on gi tract data
 18. TransBTS: Multimodal Brain Tumor Segmentation Using Transformer
 19. Swin unetr: Swin transformers for semantic segmentation of brain tumors in mri images
+20. TransCT: Dual-path Transformer for Low Dose Computed Tomography
