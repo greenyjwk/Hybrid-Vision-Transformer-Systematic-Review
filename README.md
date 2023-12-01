@@ -27,6 +27,7 @@
 | [MIST-Net[14]](https://zenodo.org/records/6368099) | 2022 | ViT + CNN / Stacking | Reconstruction | NIH-AAPM-Mayo Low-dose CT| CT |
 | [TECNN[15]](https://zenodo.org/records/6368099) | 2023 | ViT + CNN / parallel | Classification | BraTS 2018, Figshare | MRI |
 | Hybrid Transformer and Convolution for Medical Image Segmentation[16] | 2022 | ViT + CNN / Stacking | Segmentation | Synapse, multiorgan segmentation | CT |
+| Medical image segmentation using levit-unet++: A case study on gi tract data[17] | 2022 | ViT + CNN / Stacking | Segmentation | UW-Madison GI Tract Image Segmentation| MRI | 
 
 
 # Reference
@@ -46,3 +47,4 @@
 14. Multi-domain Integrative Swin Transformer network for Sparse-View Tomographic Reconstruction
 15. Combining the Transformer and Convolution for Effective Brain Tumor Classification Using MRI Images
 16. Hybrid Transformer and Convolution for Medical Image Segmentation
+17. Medical image segmentation using levit-unet++: A case study on gi tract data
