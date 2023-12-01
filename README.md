@@ -37,7 +37,7 @@
 1. TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation
 2. U-net transformer: Self and cross attention for medical image segmentation
 3. UTNet: A Hybrid Transformer Architecture for Medical Image Segmentation
-4. Bitr-unet: a cnn-transformer combined network for mri brain tumor segmentation
+4. Bitr-unet: a cnn-transformer combined network for MRI brain tumor segmentation
 5. After-unet: Axial fusion transformer unet for medical image segmentation
 6. A transformer-based framework for automatic COVID19 diagnosis in chest CTs
 7. Unsupervised MRI reconstruction via zero-shot learned adversarial transformers
