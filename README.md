@@ -32,6 +32,7 @@
 | [Swin UNETR[19]](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR) | 2021 | ViT + CNN / Stacking(Swin Transformer in Encoder) | Segmentation | BraTS 2021 | MRI | 
 | [TransCT[20]](https://github.com/zzc623/TransCT) | 2021 | ViT + CNN / Stacking | Restoration | 2016 NIH AAPM-Mayo Clinic Low-Dose CT | CT |
 | [T2Net[21]](https://github.com/chunmeifeng/T2Net) | 2021 | ViT + CNN / Stacking | Reconstruction & Super Resolution| public IXI, clinical brain MRI Dataset | MRI |
+| [TranSMS[22]](https://github.com/icon-lab/TranSMS) | 2022 | ViT + CNN / Parallel | Reconstruction & Super Resolution| in-house MPI, Open MPI Dataset | MPI |
 
 
 # Reference
@@ -56,3 +57,4 @@
 19. Swin unetr: Swin transformers for semantic segmentation of brain tumors in MRI images
 20. TransCT: Dual-path Transformer for Low Dose Computed Tomography
 21. Task Transformer Network for Joint MRI Reconstruction and Super-Resolution
+22. TranSMS: Transformers for super-resolution calibration in magnetic particle imaging
