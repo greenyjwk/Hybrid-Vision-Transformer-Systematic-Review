@@ -52,5 +52,5 @@
 16. Hybrid Transformer and Convolution for Medical Image Segmentation
 17. Medical image segmentation using levit-unet++: A case study on gi tract data
 18. TransBTS: Multimodal Brain Tumor Segmentation Using Transformer
-19. Swin unetr: Swin transformers for semantic segmentation of brain tumors in mri images
+19. Swin unetr: Swin transformers for semantic segmentation of brain tumors in MRI images
 20. TransCT: Dual-path Transformer for Low Dose Computed Tomography
