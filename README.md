@@ -33,6 +33,9 @@
 | [TransCT[20]](https://github.com/zzc623/TransCT) | 2021 | ViT + CNN / Stacking | Restoration | 2016 NIH AAPM-Mayo Clinic Low-Dose CT | CT | 
 
 
+| [T2Net[21]](https://github.com/chunmeifeng/T2Net) | 2021 | ViT + CNN / Stacking | Reconstruction & Super Resolution| public IXI, clinical brain MRI Dataset | MRI | 
+
+
 # Reference
 1. TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation
 2. U-net transformer: Self and cross attention for medical image segmentation
@@ -54,3 +57,4 @@
 18. TransBTS: Multimodal Brain Tumor Segmentation Using Transformer
 19. Swin unetr: Swin transformers for semantic segmentation of brain tumors in MRI images
 20. TransCT: Dual-path Transformer for Low Dose Computed Tomography
+21. Task Transformer Network for Joint MRI Reconstruction and Super-Resolution
