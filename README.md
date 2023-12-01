@@ -28,6 +28,7 @@
 | [TECNN[15]](https://zenodo.org/records/6368099) | 2023 | ViT + CNN / parallel | Classification | BraTS 2018, Figshare | MRI |
 | Hybrid Transformer and Convolution for Medical Image Segmentation[16] | 2022 | ViT + CNN / Stacking | Segmentation | Synapse, multiorgan segmentation | CT |
 | Medical image segmentation using levit-unet++: A case study on gi tract data[17] | 2022 | ViT + CNN / Stacking | Segmentation | UW-Madison GI Tract Image Segmentation| MRI | 
+| [TransBTS[18]](https://github.com/Rubics-Xuan/TransBTS) | 2021 | ViT + CNN / Between | Segmentation | BraTS 2019/2020 | MRI | 
 
 
 # Reference
@@ -48,3 +49,4 @@
 15. Combining the Transformer and Convolution for Effective Brain Tumor Classification Using MRI Images
 16. Hybrid Transformer and Convolution for Medical Image Segmentation
 17. Medical image segmentation using levit-unet++: A case study on gi tract data
+18. TransBTS: Multimodal Brain Tumor Segmentation Using Transformer
