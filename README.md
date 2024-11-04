@@ -38,11 +38,11 @@
 | DTN [25] |Regression| Sequential   | Feature Reshaping Fusing            | Encoder/Decoder | Dual Transformer            | Specialized CNN                    |
 | ViT-V-Net [51] | Registration| Sequential   | Feature Reshaping Positional Encoding | Encoder    | Vision Transformer           | Specialized CNN |
 | Transmorph [23] |Registration| Sequential   | Feature Reshaping                   | Encoder       | Swin Transformer             | U-Net                              |
-| ResViT [29]                      | Image Synthesis                 | Sequential   | Feature Reshaping                   | Encoder       | Vision Transformer           | Specialized CNN                    |
-| TransCT [27]                     | Restoration                     | Parallel     | Feature Reshaping                   | Encoder Decoder | Vision Transformer         | Specialized CNN                    |
-| Multi-View ViT [26]              | Combining Views                 | Sequential   | Feature Reshaping                   | Encoder       | Cross View-Attention         | ResNet                             |
-| AlignTransformer [52]            | Report Generation               | Sequential   | Feature Reshaping                   | Encoder       | Align Hierarchical-Attention | ResNet                             |
-| R2Gen [28]                       |                                 | Sequential   | Feature Reshaping                   | Encoder Decoder | Vision Transformer         | Pretrained (ResNet, VGG)           |
+| ResViT [29] | Image Synthesis                 | Sequential   | Feature Reshaping| Encoder       | Vision Transformer| Specialized CNN |
+| TransCT [27]| Restoration| Parallel     | Feature Reshaping                   | Encoder Decoder | Vision Transformer         | Specialized CNN |
+| Multi-View ViT [26]| Combining Views                 | Sequential   | Feature Reshaping                   | Encoder       | Cross View-Attention         | ResNet |
+| AlignTransformer [52]| Report Generation| Sequential   | Feature Reshaping                   | Encoder       | Align Hierarchical-Attention | ResNet      |
+| R2Gen [28]| Report Generation | Sequential   | Feature Reshaping                   | Encoder Decoder | Vision Transformer         | Pretrained (ResNet, VGG) |
 
 
 
