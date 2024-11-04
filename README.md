@@ -154,11 +154,12 @@ applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respe
 22. Unsupervised MRI reconstruction via zero-shot learned adversarial transformers
 23. 3D transformer-GAN for high-quality PET reconstruction
 24. Task transformer network for joint MRI reconstruction and super-resolution
-25. Learning dual transformer network for diffeomorphic registration
-26. Vit-v-net: Vision transformer for unsupervised volumetric medical image registration
-27. Transmorph: Transformer for unsupervised medical image registration
-28. ResViT: Residual vision transformers for multimodal medical image synthesis
-29. TransCT: dual-path transformer for low dose computed tomography
-30. Multi-view analysis of unregistered medical images using cross-view transformers
-31. Aligntransformer: Hierarchical alignment of visual regions and disease tags for medical report generation
-32. Generating radiology reports via memory-driven transformer
+25. Ultrasound Video Transformers for Cardiac Ejection Fraction Estimation,”
+26. Learning dual transformer network for diffeomorphic registration
+27. Vit-v-net: Vision transformer for unsupervised volumetric medical image registration
+28. Transmorph: Transformer for unsupervised medical image registration
+29. ResViT: Residual vision transformers for multimodal medical image synthesis
+30. TransCT: dual-path transformer for low dose computed tomography
+31. Multi-view analysis of unregistered medical images using cross-view transformers
+32. Aligntransformer: Hierarchical alignment of visual regions and disease tags for medical report generation
+33. Generating radiology reports via memory-driven transformer
