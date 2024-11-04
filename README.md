@@ -86,6 +86,9 @@ benchmarking criteria.
 |R2Gen [28]                 |X-Ray          |78.4         |35.4                   |MIMIC CXR Training: 368,960 Val: 2,991 Test: 5,159|BLEU1: 0.353              |
 
 
+### Comparative analysis of the existing hybrid architectures
+It performed based on the criteria defined in Sec.2.2. Studies are grouped based on the targeted
+applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respectively.
 
 
 |Model|Benchmarking rating|Target dimension|Parameter(M)|Inference time(GFLOPs)|Sample Size|Community adoption rate|Performance|
