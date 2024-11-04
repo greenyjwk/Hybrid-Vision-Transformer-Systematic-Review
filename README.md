@@ -131,21 +131,21 @@ applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respe
 
 
 ## Reference
-1. TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation
-2. U-net transformer: Self and cross attention for medical image segmentation
-3. UTNet: A Hybrid Transformer Architecture for Medical Image Segmentation
-4. Bitr-unet: a cnn-transformer combined network for mri brain tumor segmentation
-5. After-unet: Axial fusion transformer unet for medical image segmentation
-6. A transformer-based framework for automatic COVID19 diagnosis in chest CTs
-7. Unsupervised MRI reconstruction via zero-shot learned adversarial transformers
-8. MR image super resolution by combining feature disentanglement CNNs and vision transformers
-9. Learning dual transformer network for diffeomorphic registration
-10. Multi-view analysis of unregistered medical images using cross-view transformers
-11. PubMedCLIP: How Much Does CLIP Benefit Visual Question Answering in the Medical Domain?
-12. Ultrasound video transformers for cardiac ejection fraction estimation
-13. More than encoder: Introducing transformer decoder to upsample
-14. Multi-domain Integrative Swin Transformer network for Sparse-View Tomographic Reconstruction
-15. Combining the Transformer and Convolution for Effective Brain Tumor Classification Using MRI Images
+1. U-net transformer: Self and cross attention for medical image segmentation
+2. UTNet: a hybrid transformer architecture for edical image segmentation
+3. Cross Pyramid Transformer makes U-net stronger in medical image segmentation
+4. Unetr: Transformers for 3d medical image segmentation
+5. Swin unetr: Swin transformers for semantic segmentation of brain tumors in mri images
+6. Automated kidney tumor segmentation with convolution and transformer network
+7. Cotr: Efficiently bridging cnn and transformer for 3d medical image segmentation
+8. Hybrid Transformer and Convolution for Medical Image Segmentation
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
 16. Hybrid Transformer and Convolution for Medical Image Segmentation
 17. Medical image segmentation using levit-unet++: A case study on gi tract data
 18. TransBTS: Multimodal Brain Tumor Segmentation Using Transformer
