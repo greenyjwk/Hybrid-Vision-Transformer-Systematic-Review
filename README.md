@@ -1,11 +1,9 @@
 # Hybrid Vision Transformer Systematic Review
 
 
-### Hybrid Design Category
-- Parallel: ViT and other techniques are located in parallel
-- Fusing: ViT between Encoder and Decoder
-- Stacking: ViT and CNN are implemented sequentially
-- Gen NN: ViT in Generative Model
+### Comparative analysis of the existing hybrid architectures
+It performed based on the criteria defined in Sec.2.2. Studies are grouped based on the targeted
+applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respectively.
 
 | Reference                        | Application  | Architecture | Merging                       | Transf. Util. | Transf. Backbone              | CNN Backbone                          |
 |----------------------------------|--------------|--------------|-------------------------------|---------------|--------------------------------|---------------------------------------|
@@ -44,6 +42,11 @@
 | AlignTransformer [52]| Report Generation| Sequential   | Feature Reshaping                   | Encoder       | Align Hierarchical-Attention | ResNet      |
 | R2Gen [28]| Report Generation | Sequential   | Feature Reshaping                   | Encoder Decoder | Vision Transformer         | Pretrained (ResNet, VGG) |
 
+
+
+### Benchmark Table
+Benchmarking criteria definition. Inaccessibility of the models are marked as ’–’ which restrict to calculate the
+benchmarking criteria.
 
 |Reference                  |Modality       |Parameters(M)|Inference Time(GFLOPs)|Sample Size                              |Performance                        |
 |---------------------------|---------------|-------------|-----------------------|------------------------------------------|-----------------------------------|
