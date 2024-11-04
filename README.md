@@ -7,59 +7,42 @@
 - Stacking: ViT and CNN are implemented sequentially
 - Gen NN: ViT in Generative Model
 
-
-### Study Selection
-| Title/Code | Year | Hybrid Design | Task | Dataset | Modality | Input Size
-| ------------------------- |  -------- | -------- | -------- | -------- | -------- | -------- | 
-| [TransFuse[1]](https://github.com/Rayicer/TransFuse) | 2021 | ViT + CNN / Parallel | Segmentation | Prostate Multi-modality MRIs from the Medical Segmentation Decathlon | MRI | MRIs from 32 patients, with volume shape of 20×320×3 |
-| U-net transformer[2] | 2021 | ViT + CNN / Fusing | Segmentation | TCIA pancreas dataset / Internal multi-organ dataset(IMO) | CT | TCIA: 82 CT-scans and Multi-Organ(IMO): 85 CT Scans|
-| [UTNet[3]](https://github.com/yhygao/UTNet) | 2021 | ViT + CNN / Stacking | Segmentation | multilabel, multi-vendor cardiac MRI cohort | MRI | 75 MRI from Siemens, 75 MRI from Philips
-| [Bitr-unet[4]](https://github.com/BruceResearch/BiTr-Unet) | 2021 | ViT + CNN / Fusing | Segmentation | BRaTS 2021 | MRI | 200 MRI Scans
-| After-unet[5] | 2021 | ViT + CNN / Fusing | Segmentation | Abdomen CT Image | CT | abdomen CT BCV:18/Thorax-85:60/SegTHOR: 30
-| [A transformer-based framework for automatic COVID19 diagnosis in chest CTs[6]](https://github.com/leizhangtech/COVID19T) | 2021 | Swin ViT + CNN / Stacking | Segmentation + Classification | MIA-COV19D competition dataset | CT | 1560 CT Scans
-| [Unsupervised MRI reconstruction via zero-shot learned adversarial transformers[7]](https://github.com/icon-lab/SLATER) | 2022 | Swin ViT + CNN / Gen NN / | Reconstruction | single-coil brain MRI data from IXI + fastMRI | MRI |
-| MR image super resolution by combining feature disentanglement CNNs and vision transformers[8] | 2022 | ViT(UNETR) + CNN / Gen NN /  | Restoration | fastMRI and The IXI dataset | MRI | fastMRI:500, IXI dataset:500 |
-| Learning dual transformer network for diffeomorphic registration[9] | 2021 | ViT + CNN / Gen NN / Stacking | Diffeomorphic Registration | OASIS with 425 T1-weighted brain MRI scans | MRI |
-| [Multi-view analysis of unregistered medical images using cross-view transformers[10]](https://github.com/gvtulder/cross-view-transformers) | 2021 | ViT + CNN / Stacking | Combining multiple MR Image View without registration | CheXpert and CBIS-DDSM | MRI | cheXpert: 23628 samples, CBIS-DDSM: 708 samples
-| PubMedCLIP[11] | 2021 | ViT + CNN / Stacking | Vision Question and answer | VQA-RAD and SLAKE | X-ray | 
-| Ultrasound video transformers for cardiac ejection fraction estimation[12] | 2021 | ViT + CNN / Stacking | Cardiac Ejection Fraction Prediction | Echonet-Dynamic dataset | Ultrasound | 
-| More than encoder: Introducing transformer decoder to upsample[13] | 2022 | ViT + CNN / Stacking | Segmentation | MSD Task01 BrainTumour, Synapse, ACDC | MRI | MSD Brain: 484 multimodal multisite MRI data, Synapse: 30 cases, ACDC: 100 cases
-| [MIST-Net[14]](https://zenodo.org/records/6368099) | 2022 | ViT + CNN / Stacking | Reconstruction | NIH-AAPM-Mayo Low-dose CT| CT |
-| [TECNN[15]](https://zenodo.org/records/6368099) | 2023 | ViT + CNN / parallel | Classification | BraTS 2018, Figshare | MRI |
-| Hybrid Transformer and Convolution for Medical Image Segmentation[16] | 2022 | ViT + CNN / Stacking | Segmentation | Synapse, multiorgan segmentation | CT |
-| Medical image segmentation using levit-unet++: A case study on gi tract data[17] | 2022 | ViT + CNN / Stacking | Segmentation | UW-Madison GI Tract Image Segmentation| MRI | 
-| [TransBTS[18]](https://github.com/Rubics-Xuan/TransBTS) | 2021 | ViT + CNN / Between | Segmentation | BraTS 2019/2020 | MRI | 
-| [Swin UNETR[19]](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR) | 2021 | ViT + CNN / Stacking(Swin Transformer in Encoder) | Segmentation | BraTS 2021 | MRI | 
-| [TransCT[20]](https://github.com/zzc623/TransCT) | 2021 | ViT + CNN / Stacking | Restoration | 2016 NIH AAPM-Mayo Clinic Low-Dose CT | CT |
-| [T2Net[21]](https://github.com/chunmeifeng/T2Net) | 2021 | ViT + CNN / Stacking | Reconstruction & Super Resolution| public IXI, clinical brain MRI Dataset | MRI |
-| [TranSMS[22]](https://github.com/icon-lab/TranSMS) | 2022 | ViT + CNN / Parallel | Reconstruction & Super Resolution| in-house MPI, Open MPI Dataset | MPI |
-
-
-
-
-
-
-| Reference                        | Application    | Architecture | Merging                  | Transf. Util. | Transf. Backbone                 | CNN Backbone                            |
-|----------------------------------|----------------|--------------|--------------------------|---------------|-----------------------------------|-----------------------------------------|
-| U-net Transformer [36]           | Segmentation   | Sequential   | Fusing                   | Encoder       | Multi-head Cross-Attention       | U-Net                                   |
-| UTNet [7]                         | Segmentation   | Sequential   | Feature Reshaping Positional Encoding | Encoder       | Multi-head Self-Attention       | U-Net                                   |
-| CPT U-Net [20]                   | Segmentation   | Parallel     | Fusing                   | Encoder Decoder | Pyramid Vision Transformer     | U-Net                                   |
-| UNETR [37]                        | Segmentation   | Sequential   | Feature Reshaping        | Encoder       | Vision Transformer               | U-Net                                   |
-| Swin UNETR [38]                   | Segmentation   | Sequential   | Feature Reshaping Fusing | Encoder       | Swin Transformer                 | U-Net                                   |
-| COTRNet [21]                      | Segmentation   | Sequential   | Feature Reshaping Positional Encoding | Encoder       | Light Vision Transformer        | U-Net                                   |
-| Cotr [39]                         | Segmentation   | Sequential   | Feature Reshaping Positional Encoding | Encoder       | Deformable Transformer-encoder  | U-Net                                   |
-| Hybrid ViT and CNN [24]           | Segmentation   | Sequential   | Fusing                   | Encoder Decoder | Vision Transformer            | U-Net                                   |
-| TransBTS [10]                     | Segmentation   | Sequential   | Feature Reshaping Positional Encoding | Encoder       | Light Vision Transformer        | U-Net                                   |
-| Trans U-Net [22]                  | Segmentation   | Sequential   | Feature Reshaping Positional Encoding | Encoder       | Vision Transformer              | U-Net                                   |
-| Bitr U-Net [40]                   | Segmentation   | Sequential   | Feature Reshaping Positional Encoding | Encoder       | Vision Transformer              | U-Net, CBAM                             |
-| After U-Net [41]                  | Segmentation   | Sequential   | Feature Reshaping        | Encoder       | Axial Fusion Transformer         | U-Net                                   |
-| WAU [42]                          | Segmentation   | Sequential   | Feature Reshaping        | Decoder       | Window Attention                 | Group Convolution, Depthwise Separable CNN |
-| HCTN [43]                         | Segmentation   | Parallel     | Feature Reshaping        | Encoder       | Vision Transformer               | U-Net                                   |
-| Hybrid CNN-Transformer Non-Contrast [44] | Segmentation | Parallel     | Fusing                   | Encoder       | Hierarchical Transformer         | U-Net                                   |
-
-
-
-
+| Reference                        | Application  | Architecture | Merging                       | Transf. Util. | Transf. Backbone              | CNN Backbone                          |
+|----------------------------------|--------------|--------------|-------------------------------|---------------|--------------------------------|---------------------------------------|
+| U-net Transformer [36]           | Segmentation | Sequential   | Fusing                        | Encoder       | Multi-head Cross-Attention     | U-Net                                 |
+| UTNet [7]                         | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Multi-head Self-Attention     | U-Net                                 |
+| CPT U-Net [20]                   | Segmentation | Parallel     | Fusing                        | Encoder Decoder | Pyramid Vision Transformer   | U-Net                                 |
+| UNETR [37]                        | Segmentation | Sequential   | Feature Reshaping             | Encoder       | Vision Transformer            | U-Net                                 |
+| Swin UNETR [38]                   | Segmentation | Sequential   | Feature Reshaping Fusing      | Encoder       | Swin Transformer              | U-Net                                 |
+| COTRNet [21]                      | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Light Vision Transformer      | U-Net                                 |
+| Cotr [39]                         | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Deformable Transformer-encoder | U-Net                               |
+| Hybrid ViT and CNN [24]           | Segmentation | Sequential   | Fusing                        | Encoder Decoder | Vision Transformer           | U-Net                                 |
+| TransBTS [10]                     | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Light Vision Transformer      | U-Net                                 |
+| Trans U-Net [22]                  | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Vision Transformer           | U-Net                                 |
+| Bitr U-Net [40]                   | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Vision Transformer           | U-Net, CBAM                           |
+| After U-Net [41]                  | Segmentation | Sequential   | Feature Reshaping             | Encoder       | Axial Fusion Transformer      | U-Net                                 |
+| WAU [42]                          | Segmentation | Sequential   | Feature Reshaping             | Decoder       | Window Attention              | Group Conv, Depthwise Separable CNN   |
+| HCTN [43]                         | Segmentation | Parallel     | Feature Reshaping             | Encoder       | Vision Transformer            | U-Net                                 |
+| Hybrid CNN-Transformer Non-Contrast [44] | Segmentation | Parallel | Fusing                        | Encoder       | Hierarchical Transformer      | U-Net                                 |
+| D-TA U-net [45]                  |                                 | Parallel     | Fusing                              | Encoder       | Swin Transformer             | U-Net       |
+| MLABHCTMI [46]                   |                                 | Parallel     | Fusing                              | Encoder/Decoder | Transformer               | U-Net       |
+| UCTNet [47]                      |                                 | Sequential   | Feature Reshaping                   | Encoder/Decoder | Transformer               | U-Net                              |
+| HybridMT-ESTAN [48]              | Classification/Segmentation     | Parallel     | Feature Reshaping Fusing            | Encoder       | Swin Transformer             | ResNet                             |
+| ChexViT [17]                     | Classification                  | Sequential   | Feature Reshaping Positional Encoding | Encoder    | Vision Transformer           | CheXNet [49]                       |
+| TECNN [19]                       | Classification                  | Parallel     | Feature Reshaping Fusing            | Encoder       | Vision Transformer           | DenseNet                           |
+| SLATER [50]                      |                                 | Sequential   | Feature Reshaping Positional Encoding | Decoder   | Cross-Attention              | Specialized CNN                    |
+| 3D Transformer GAN [18]          | Reconstruction                  | Sequential   | Feature Reshaping Positional Encoding | Encoder Decoder | Vision Transformer     | Specialized CNN                    |
+| T2Net [31]                       |                                 | Sequential   |                                      | Encoder       | Task-Attention               | Specialized CNN                    |
+| MIST-Net [50]                    |                                 | Sequential   | Feature Reshaping Fusing            | Decoder       | Soft-Attention Swin Transformer | Specialized CNN                |
+| Ultrasound ViT [30]              | Regression                      | Sequential   | Feature Mapping                     | Encoder       | Bert                         | ResNetAE/DenseNet                  |
+| DTN [25]                         |                                 | Sequential   | Feature Reshaping Fusing            | Encoder/Decoder | Dual Transformer            | Specialized CNN                    |
+| ViT-V-Net [51]                   | Registration                    | Sequential   | Feature Reshaping Positional Encoding | Encoder    | Vision Transformer           | Specialized CNN                    |
+| Transmorph [23]                  |                                 | Sequential   | Feature Reshaping                   | Encoder       | Swin Transformer             | U-Net                              |
+| ResViT [29]                      | Image Synthesis                 | Sequential   | Feature Reshaping                   | Encoder       | Vision Transformer           | Specialized CNN                    |
+| TransCT [27]                     | Restoration                     | Parallel     | Feature Reshaping                   | Encoder Decoder | Vision Transformer         | Specialized CNN                    |
+| Multi-View ViT [26]              | Combining Views                 | Sequential   | Feature Reshaping                   | Encoder       | Cross View-Attention         | ResNet                             |
+| AlignTransformer [52]            | Report Generation               | Sequential   | Feature Reshaping                   | Encoder       | Align Hierarchical-Attention | ResNet                             |
+| R2Gen [28]                       |                                 | Sequential   | Feature Reshaping                   | Encoder Decoder | Vision Transformer         | Pretrained (ResNet, VGG)           |
 
 
 
