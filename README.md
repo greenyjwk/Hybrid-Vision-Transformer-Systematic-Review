@@ -88,28 +88,39 @@ benchmarking criteria.
 
 
 
-
-
-# Reference
-1. TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation
-2. U-net transformer: Self and cross attention for medical image segmentation
-3. UTNet: A Hybrid Transformer Architecture for Medical Image Segmentation
-4. Bitr-unet: a cnn-transformer combined network for MRI brain tumor segmentation
-5. After-unet: Axial fusion transformer unet for medical image segmentation
-6. A transformer-based framework for automatic COVID19 diagnosis in chest CTs
-7. Unsupervised MRI reconstruction via zero-shot learned adversarial transformers
-8. MR image super resolution by combining feature disentanglement CNNs and vision transformers
-9. Learning dual transformer network for diffeomorphic registration
-10. Multi-view analysis of unregistered medical images using cross-view transformers
-11. PubMedCLIP: How Much Does CLIP Benefit Visual Question Answering in the Medical Domain?
-12. Ultrasound video transformers for cardiac ejection fraction estimation
-13. More than encoder: Introducing transformer decoder to upsample
-14. Multi-domain Integrative Swin Transformer network for Sparse-View Tomographic Reconstruction
-15. Combining the Transformer and Convolution for Effective Brain Tumor Classification Using MRI Images
-16. Hybrid Transformer and Convolution for Medical Image Segmentation
-17. Medical image segmentation using levit-unet++: A case study on gi tract data
-18. TransBTS: Multimodal Brain Tumor Segmentation Using Transformer
-19. Swin unetr: Swin transformers for semantic segmentation of brain tumors in MRI images
-20. TransCT: Dual-path Transformer for Low Dose Computed Tomography
-21. Task Transformer Network for Joint MRI Reconstruction and Super-Resolution
-22. TranSMS: Transformers for super-resolution calibration in magnetic particle imaging
+|Model|Benchmarking rating|Target dimension|Parameter(M)|Inference time(GFLOPs)|Sample Size|Community adoption rate|Performance|
+|-----|------------------|----------------|------------|---------------------|-----------|---------------------|------------|
+|U-net Transformer|Opaque|High|-50|-|Public,single|91|80|
+|UTNet|High|High|-50|-50|Public,multiple|166|80|
+|CPT U-Net|Medium|High|-100|-150|Public,multiple|2.06|80|
+|UNETR|High|High|-100|-50|Public,multiple|957|80|
+|Swin UNETR|Low|High|-100|-150|Public,single|356.33|90|
+|COTRNet|Opaque|High|-|-|Public,single|7|80|
+|Cotr|Low|High|-50|-150|Public,single|189.33|80|
+|Hybrid ViT and CNN|Opaque|High|-|-|Public,single|1.5|80|
+|TransBTS|High|High|-50|-300|Public,multiple|9|80|
+|Trans U-Net|Medium|High|-100|-1000|Public,multiple|1456|-70|
+|Bitr U-Net|Low|High|-50|-150|Public,single|31.33|90|
+|After U-Net|Opaque|High|-50|-|Public,single|76.5|80|
+|WAU|High|High|-50|-50|Public,multiple|27.5|80|
+|HCTN|Opaque|High|-|-|Public,single|3|80|
+|Hybrid CNN-Transformer Non-Contrast|High|High|-50|-5|Public,multiple|10|80|
+|D-NetNet|Medium|High|-100|-50|Public,single|6|80|
+|MCAReTNet|High|High|-5|-5|Public,multiple|1|80|
+|UCTNet|High|High|-100|-50|Public,multiple|6|80|
+|Hybrid MCSPBSN|Opaque|High|-|-|Private,single|8|80|
+|ChanViT|Opaque|Low|-|-|Public,single|1|80|
+|TRCNet|Opaque|High|-50|-|Public,multiple|32|95|
+|SEATER|High|High|-50|-150|Public,multiple|97.5|95|
+|3D Transformer GAN|Opaque|High|-50|-|Private,single|54.67|95|
+|T2Net|Low|High|-5|-100|Public,single|27.5|80|
+|MSN-Net|Medium|High|-50|-300|Public,single|18|95|
+|Ultrasound ViT|Medium|High|-800|-300|Public,single|21.33|80|
+|DTN|Opaque|High|-|-|Private,single|21.33|80|
+|ViViT-Net|Low|High|-50|-700|Private,single|65.33|80|
+|Transmorph|Medium|High|-50|-1000|Public,multiple|166|80|
+|RevViT|Medium|High|-100|-900|Public,multiple|173|80|
+|TransCT|Medium|High|-50|-500|Public,single|54.67|90|
+|Multi-View ViT|High|Low|-50|-10|Public,single|21.67|80|
+|AlignTransformer|Opaque|Low|-|-|Public,single|45.33|-80(BLEU)|
+|R2Gen|Medium|Low|-100|-50|Public,multiple|122.67|-50(BLEU)|
