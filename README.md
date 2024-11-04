@@ -144,9 +144,9 @@ applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respe
 11. Bitr-unet: a cnn-transformer combined network for mri brain tumor segmentation
 12. After-unet: Axial fusion transformer unet for medical image segmentation
 13. More than encoder: Introducing transformer decoder to upsample
-14. 
-15. 
-16.
+14. Hybrid CNNtransformer network for interactive learning of challenging musculoskeletal images
+15. Hybrid CNN-Transformer Network With Circular Feature Interaction for Acute Ischemic Stroke Lesion Segmentation on Non-Contrast CT Scans
+16. D-TrAttUnet: Toward hybrid CNN-transformer architecture for generic and subtle segmentation in medical images
 17.
 18.
 19.
