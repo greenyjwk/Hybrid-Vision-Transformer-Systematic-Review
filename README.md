@@ -7,34 +7,34 @@ applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respe
 
 | Reference                        | Application  | Architecture | Merging                       | Transf. Util. | Transf. Backbone              | CNN Backbone                          |
 |----------------------------------|--------------|--------------|-------------------------------|---------------|--------------------------------|---------------------------------------|
-| U-net Transformer [36]           | Segmentation | Sequential   | Fusing                        | Encoder       | Multi-head Cross-Attention     | U-Net                                 |
-| UTNet [7]                         | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Multi-head Self-Attention     | U-Net                                 |
-| CPT U-Net [20]                   | Segmentation | Parallel     | Fusing                        | Encoder Decoder | Pyramid Vision Transformer   | U-Net                                 |
-| UNETR [37]                        | Segmentation | Sequential   | Feature Reshaping             | Encoder       | Vision Transformer            | U-Net                                 |
-| Swin UNETR [38]                   | Segmentation | Sequential   | Feature Reshaping Fusing      | Encoder       | Swin Transformer              | U-Net                                 |
-| COTRNet [21]                      | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Light Vision Transformer      | U-Net                                 |
-| Cotr [39]                         | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Deformable Transformer-encoder | U-Net                               |
-| Hybrid ViT and CNN [24]           | Segmentation | Sequential   | Fusing                        | Encoder Decoder | Vision Transformer           | U-Net                                 |
-| TransBTS [10]                     | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Light Vision Transformer      | U-Net                                 |
-| Trans U-Net [22]                  | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Vision Transformer           | U-Net |
-| Bitr U-Net [40]                   | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Vision Transformer           | U-Net, CBAM |
-| After U-Net [41]                  | Segmentation | Sequential   | Feature Reshaping             | Encoder       | Axial Fusion Transformer      | U-Net |
-| WAU [42]                          | Segmentation | Sequential   | Feature Reshaping             | Decoder       | Window Attention              | Group Conv, Depthwise Separable CNN   |
-| HCTN [43]                         | Segmentation | Parallel     | Feature Reshaping             | Encoder       | Vision Transformer            | U-Net|
-| Hybrid CNN-Transformer Non-Contrast [44] | Segmentation | Parallel | Fusing                        | Encoder       | Hierarchical Transformer      | U-Net|
-| D-TA U-net [45]                  | Segmentation | Parallel     | Fusing                              | Encoder       | Swin Transformer             | U-Net       |
-| MLABHCTMI [46]                   | Segmentation | Parallel     | Fusing                              | Encoder/Decoder | Transformer               | U-Net       |
-| UCTNet [47]                      | Segmentation | Sequential   | Feature Reshaping                   | Encoder/Decoder | Transformer               | U-Net|
-| HybridMT-ESTAN [48]              | Classification/Segmentation     | Parallel     | Feature Reshaping Fusing            | Encoder       | Swin Transformer| ResNet  |
-| ChexViT [17]                     | Classification                  | Sequential   | Feature Reshaping Positional Encoding | Encoder    | Vision Transformer           | CheXNet [49]|
-| TECNN [19] | Classification | Parallel     | Feature Reshaping Fusing            | Encoder       | Vision Transformer           | DenseNet  |
-| SLATER [50] | Classification | Sequential   | Feature Reshaping Positional Encoding | Decoder   | Cross-Attention              | Specialized CNN                    |
-| 3D Transformer GAN [18] | Reconstruction                  | Sequential   | Feature Reshaping Positional Encoding | Encoder Decoder | Vision Transformer     | Specialized CNN|
-| T2Net [31] |Reconstruction| Sequential   |                                      | Encoder       | Task-Attention               | Specialized CNN |
-| MIST-Net [50] | Reconstruction | Sequential   | Feature Reshaping Fusing            | Decoder       | Soft-Attention Swin Transformer | Specialized CNN                |
+| U-net Transformer [1]           | Segmentation | Sequential   | Fusing                        | Encoder       | Multi-head Cross-Attention     | U-Net                                 |
+| UTNet [2]                         | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Multi-head Self-Attention     | U-Net                                 |
+| CPT U-Net [3]                   | Segmentation | Parallel     | Fusing                        | Encoder Decoder | Pyramid Vision Transformer   | U-Net                                 |
+| UNETR [4]                        | Segmentation | Sequential   | Feature Reshaping             | Encoder       | Vision Transformer            | U-Net                                 |
+| Swin UNETR [5]                   | Segmentation | Sequential   | Feature Reshaping Fusing      | Encoder       | Swin Transformer              | U-Net                                 |
+| COTRNet [6]                      | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Light Vision Transformer      | U-Net                                 |
+| Cotr [7]                         | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Deformable Transformer-encoder | U-Net                               |
+| Hybrid ViT and CNN [8]           | Segmentation | Sequential   | Fusing                        | Encoder Decoder | Vision Transformer           | U-Net                                 |
+| TransBTS [9]                     | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Light Vision Transformer      | U-Net                                 |
+| Trans U-Net [10]                  | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Vision Transformer           | U-Net |
+| Bitr U-Net [11]                   | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Vision Transformer           | U-Net, CBAM |
+| After U-Net [12]                  | Segmentation | Sequential   | Feature Reshaping             | Encoder       | Axial Fusion Transformer      | U-Net |
+| WAU [13]                          | Segmentation | Sequential   | Feature Reshaping             | Decoder       | Window Attention              | Group Conv, Depthwise Separable CNN   |
+| HCTN [14]                         | Segmentation | Parallel     | Feature Reshaping             | Encoder       | Vision Transformer            | U-Net|
+| Hybrid CNN-Transformer Non-Contrast [15] | Segmentation | Parallel | Fusing                        | Encoder       | Hierarchical Transformer      | U-Net|
+| D-TA U-net [16]                  | Segmentation | Parallel     | Fusing                              | Encoder       | Swin Transformer             | U-Net       |
+| MLABHCTMI [17]| Segmentation | Parallel| Fusing|Encoder/Decoder | Transformer| U-Net|
+| UCTNet [18]| Segmentation | Sequential| Feature Reshaping| Encoder/Decoder | Transformer| U-Net|
+| HybridMT-ESTAN [19]| Classification/Segmentation| Parallel| Feature Reshaping Fusing| Encoder| Swin Transformer| ResNet|
+| ChexViT [20]| Classification| Sequential   | Feature Reshaping Positional Encoding | Encoder    | Vision Transformer| CheXNet [49]|
+| TECNN [21] | Classification | Parallel| Feature Reshaping Fusing| Encoder| Vision Transformer| DenseNet  |
+| SLATER [22] | Classification | Sequential| Feature Reshaping Positional Encoding | Decoder   | Cross-Attention| Specialized CNN|
+| 3D Transformer GAN [23] | Reconstruction| Sequential   | Feature Reshaping Positional Encoding | Encoder Decoder | Vision Transformer| Specialized CNN|
+| T2Net [24] |Reconstruction| Sequential|| Encoder| Task-Attention| Specialized CNN |
+| MIST-Net [25] | Reconstruction | Sequential| Feature Reshaping Fusing | Decoder| Soft-Attention Swin Transformer | Specialized CNN|
 | Ultrasound ViT [30] | Regression | Sequential   | Feature Mapping                     | Encoder       | Bert                         | ResNetAE/DenseNet                  |
 | DTN [25] |Regression| Sequential   | Feature Reshaping Fusing            | Encoder/Decoder | Dual Transformer            | Specialized CNN                    |
-| ViT-V-Net [51] | Registration| Sequential   | Feature Reshaping Positional Encoding | Encoder    | Vision Transformer           | Specialized CNN |
+| ViT-V-Net [26] | Registration| Sequential   | Feature Reshaping Positional Encoding | Encoder    | Vision Transformer           | Specialized CNN |
 | Transmorph [23] |Registration| Sequential   | Feature Reshaping                   | Encoder       | Swin Transformer             | U-Net                              |
 | ResViT [29] | Image Synthesis                 | Sequential   | Feature Reshaping| Encoder       | Vision Transformer| Specialized CNN |
 | TransCT [27]| Restoration| Parallel     | Feature Reshaping                   | Encoder Decoder | Vision Transformer         | Specialized CNN |
