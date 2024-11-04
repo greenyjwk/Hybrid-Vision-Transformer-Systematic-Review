@@ -139,13 +139,14 @@ applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respe
 6. Automated kidney tumor segmentation with convolution and transformer network
 7. Cotr: Efficiently bridging cnn and transformer for 3d medical image segmentation
 8. Hybrid Transformer and Convolution for Medical Image Segmentation
-9. 
-10. 
-11. 
-12. 
-13. 
+9. Transbts: Multimodal brain tumor segmentation using transformer
+10. TransUNet: Rethinking the U-Net architecture design for medical image segmentation through the lens of transformers
+11. Bitr-unet: a cnn-transformer combined network for mri brain tumor segmentation
+12. After-unet: Axial fusion transformer unet for medical image segmentation
+13. More than encoder: Introducing transformer decoder to upsample
 14. 
 15. 
-16. Hybrid Transformer and Convolution for Medical Image Segmentation
-17. Medical image segmentation using levit-unet++: A case study on gi tract data
-18. TransBTS: Multimodal Brain Tumor Segmentation Using Transformer
+16.
+17.
+18.
+19.
