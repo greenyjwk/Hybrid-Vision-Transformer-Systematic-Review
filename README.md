@@ -1,4 +1,4 @@
-# Hybrid Vision Transformer Systematic Review
+# Systematic Review of Hybrid Vision Transformer Architectures for Radiological Image Analysis
 
 
 ### Comparative analysis of the existing hybrid architectures
