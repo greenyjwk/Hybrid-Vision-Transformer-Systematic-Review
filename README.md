@@ -24,9 +24,9 @@
 | WAU [42]                          | Segmentation | Sequential   | Feature Reshaping             | Decoder       | Window Attention              | Group Conv, Depthwise Separable CNN   |
 | HCTN [43]                         | Segmentation | Parallel     | Feature Reshaping             | Encoder       | Vision Transformer            | U-Net                                 |
 | Hybrid CNN-Transformer Non-Contrast [44] | Segmentation | Parallel | Fusing                        | Encoder       | Hierarchical Transformer      | U-Net                                 |
-| D-TA U-net [45]                  |                                 | Parallel     | Fusing                              | Encoder       | Swin Transformer             | U-Net       |
-| MLABHCTMI [46]                   |                                 | Parallel     | Fusing                              | Encoder/Decoder | Transformer               | U-Net       |
-| UCTNet [47]                      |                                 | Sequential   | Feature Reshaping                   | Encoder/Decoder | Transformer               | U-Net                              |
+| D-TA U-net [45]                  | Segmentation | Parallel     | Fusing                              | Encoder       | Swin Transformer             | U-Net       |
+| MLABHCTMI [46]                   | Segmentation | Parallel     | Fusing                              | Encoder/Decoder | Transformer               | U-Net       |
+| UCTNet [47]                      | Segmentation | Sequential   | Feature Reshaping                   | Encoder/Decoder | Transformer               | U-Net                              |
 | HybridMT-ESTAN [48]              | Classification/Segmentation     | Parallel     | Feature Reshaping Fusing            | Encoder       | Swin Transformer             | ResNet                             |
 | ChexViT [17]                     | Classification                  | Sequential   | Feature Reshaping Positional Encoding | Encoder    | Vision Transformer           | CheXNet [49]                       |
 | TECNN [19]                       | Classification                  | Parallel     | Feature Reshaping Fusing            | Encoder       | Vision Transformer           | DenseNet                           |
