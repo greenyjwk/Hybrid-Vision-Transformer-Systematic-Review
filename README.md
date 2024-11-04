@@ -127,3 +127,5 @@ applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respe
 |Multi-View ViT|High|Low|-50|-10|Public,single|21.67|80|
 |AlignTransformer|Opaque|Low|-|-|Public,single|45.33|-80(BLEU)|
 |R2Gen|Medium|Low|-100|-50|Public,multiple|122.67|-50(BLEU)|
+
+
