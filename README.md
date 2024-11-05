@@ -35,8 +35,8 @@ Studies that are grouped based on the targeted application, Hybrid architecture,
 | 3D Transformer GAN [23] | Reconstruction| Sequential | Feature Reshaping<br>Positional Encoding | Encoder Decoder | Vision Transformer| Specialized CNN|
 | T2Net [24] |Reconstruction| Sequential|| Encoder| Task-Attention| Specialized CNN |
 | MIST-Net [25] | Reconstruction | Sequential| Feature Reshaping<br>Fusing | Decoder| Soft-Attention Swin Transformer | Specialized CNN|
-| Ultrasound ViT [26] | Regression | Sequential   | Feature Mapping | Encoder       | Bert | ResNetAE/DenseNet |
-| DTN [27] |Regression| Sequential   | Feature Reshaping Fusing | Encoder/Decoder | Dual Transformer | Specialized CNN |
+| Ultrasound ViT [26] | Regression | Sequential   | Feature Mapping | Encoder | Bert | ResNetAE/DenseNet |
+| DTN [27] |Regression| Sequential   | Feature Reshaping Fusing | Encoder</br>Decoder | Dual Transformer | Specialized CNN |
 | ViT-V-Net [28] | Registration| Sequential | Feature Reshaping<br>Positional Encoding | Encoder    | Vision Transformer | Specialized CNN |
 | Transmorph [29] |Registration| Sequential | Feature Reshaping | Encoder | Swin Transformer | U-Net |
 | ResViT [30] | Image Synthesis | Sequential   | Feature Reshaping | Encoder | Vision Transformer| Specialized CNN |
