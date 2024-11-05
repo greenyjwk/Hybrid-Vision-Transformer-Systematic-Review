@@ -155,7 +155,7 @@ applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respe
 23. 3D transformer-GAN for high-quality PET reconstruction
 24. Task transformer network for joint MRI reconstruction and super-resolution
 25. Multi-domain integrative swin-transformer network for sparse-view tomographic reconstruction
-26. Ultrasound Video Transformers for Cardiac Ejection Fraction Estimation,”
+26. Ultrasound Video Transformers for Cardiac Ejection Fraction Estimation
 27. Learning dual transformer network for diffeomorphic registration
 28. Vit-v-net: Vision transformer for unsupervised volumetric medical image registration
 29. Transmorph: Transformer for unsupervised medical image registration
