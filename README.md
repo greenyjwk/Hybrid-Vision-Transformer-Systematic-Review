@@ -103,30 +103,30 @@ applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respe
 |Hybrid ViT and CNN[8]|Opaque|High|-|-|Public,single|1.5|80|
 |TransBTS[9]|High|High|-50|-300|Public,multiple|9|80|
 |Trans U-Net[10]|Medium|High|-100|-1000|Public,multiple|1456|-70|
-|Bitr U-Net|Low|High|-50|-150|Public,single|31.33|90|
-|After U-Net|Opaque|High|-50|-|Public,single|76.5|80|
-|WAU|High|High|-50|-50|Public,multiple|27.5|80|
-|HCTN|Opaque|High|-|-|Public,single|3|80|
-|Hybrid CNN-Transformer Non-Contrast|High|High|-50|-5|Public,multiple|10|80|
-|D-NetNet|Medium|High|-100|-50|Public,single|6|80|
-|MCAReTNet|High|High|-5|-5|Public,multiple|1|80|
-|UCTNet|High|High|-100|-50|Public,multiple|6|80|
-|Hybrid MCSPBSN|Opaque|High|-|-|Private,single|8|80|
-|ChanViT|Opaque|Low|-|-|Public,single|1|80|
-|TRCNet|Opaque|High|-50|-|Public,multiple|32|95|
-|SEATER|High|High|-50|-150|Public,multiple|97.5|95|
-|3D Transformer GAN|Opaque|High|-50|-|Private,single|54.67|95|
-|T2Net|Low|High|-5|-100|Public,single|27.5|80|
-|MSN-Net|Medium|High|-50|-300|Public,single|18|95|
-|Ultrasound ViT|Medium|High|-800|-300|Public,single|21.33|80|
-|DTN|Opaque|High|-|-|Private,single|21.33|80|
-|ViViT-Net|Low|High|-50|-700|Private,single|65.33|80|
-|Transmorph|Medium|High|-50|-1000|Public,multiple|166|80|
-|RevViT|Medium|High|-100|-900|Public,multiple|173|80|
-|TransCT|Medium|High|-50|-500|Public,single|54.67|90|
-|Multi-View ViT|High|Low|-50|-10|Public,single|21.67|80|
-|AlignTransformer|Opaque|Low|-|-|Public,single|45.33|-80(BLEU)|
-|R2Gen|Medium|Low|-100|-50|Public,multiple|122.67|-50(BLEU)|
+|Bitr U-Net[11]|Low|High|-50|-150|Public,single|31.33|90|
+|After U-Net[12]|Opaque|High|-50|-|Public,single|76.5|80|
+|WAU[13]|High|High|-50|-50|Public,multiple|27.5|80|
+|HCTN[14]|Opaque|High|-|-|Public,single|3|80|
+|Hybrid CNN-Transformer Non-Contrast[15]|High|High|-50|-5|Public,multiple|10|80|
+|D-NetNet[16]|Medium|High|-100|-50|Public,single|6|80|
+|MCAReTNet[17]|High|High|-5|-5|Public,multiple|1|80|
+|UCTNet[18]|High|High|-100|-50|Public,multiple|6|80|
+|Hybrid MCSPBSN[19]|Opaque|High|-|-|Private,single|8|80|
+|ChexViT[20]|Opaque|Low|-|-|Public,single|1|80|
+|T2Net[21]|Opaque|High|-50|-|Public,multiple|32|95|
+|SLATER[22]|High|High|-50|-150|Public,multiple|97.5|95|
+|3D Transformer GAN[23]|Opaque|High|-50|-|Private,single|54.67|95|
+|T2Net[24]|Low|High|-5|-100|Public,single|27.5|80|
+|MIST-Net[25]|Medium|High|-50|-300|Public,single|18|95|
+|Ultrasound ViT[26]|Medium|High|-800|-300|Public,single|21.33|80|
+|DTN[27]|Opaque|High|-|-|Private,single|21.33|80|
+|ViViT-Net[28]|Low|High|-50|-700|Private,single|65.33|80|
+|Transmorph[29]|Medium|High|-50|-1000|Public,multiple|166|80|
+|RevViT[30]|Medium|High|-100|-900|Public,multiple|173|80|
+|TransCT[31]|Medium|High|-50|-500|Public,single|54.67|90|
+|Multi-View ViT[32]|High|Low|-50|-10|Public,single|21.67|80|
+|AlignTransformer[33]|Opaque|Low|-|-|Public,single|45.33|-80(BLEU)|
+|R2Gen[34]|Medium|Low|-100|-50|Public,multiple|122.67|-50(BLEU)|
 
 
 ## Reference
