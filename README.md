@@ -9,7 +9,7 @@ Architectures for Radiological Image Analysis". It has the list of the 34 papers
 Studies that are grouped based on the targeted application, Hybrid architecture, Way that it connects CNN and ViT.
 
 | Reference                        | Application  | Architecture | Merging                       | Transf. Util. | Transf. Backbone | CNN Backbone |
-|----------------------------------|--------------|--------------|-------------------------------|---------------|--------------------------------|---------------------------------------|
+|----------------------------------|--------------|--------------|---------------------------------------|---------------|--------------------------------|---------------------------------------|
 | U-net Transformer [1]           | Segmentation | Sequential   | Fusing | Encoder | Multi-head Cross-Attention | U-Net |
 | UTNet [2]                         | Segmentation | Sequential   | Feature Reshaping <br> Positional Encoding| Encoder | Multi-head Self-Attention | U-Net |
 | CPT U-Net [3]                   | Segmentation | Parallel     | Fusing | Encoder<br>Decoder | Pyramid Vision Transformer | U-Net |
