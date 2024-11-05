@@ -27,7 +27,7 @@ Studies that are grouped based on the targeted application, Hybrid architecture,
 | Hybrid CNN-Transformer Non-Contrast [15] | Segmentation | Parallel | Fusing | Encoder | Hierarchical Transformer | U-Net|
 | D-TA U-net [16]                   | Segmentation | Parallel | Fusing | Encoder | Swin Transformer | U-Net |
 | MLABHCTMI [17]                    | Segmentation | Parallel| Fusing|Encoder/Decoder | Transformer| U-Net|
-| UCTNet [18]                        | Segmentation | Sequential| Feature Reshaping| Encoder</Decoder | Transformer| U-Net|
+| UCTNet [18]                        | Segmentation | Sequential| Feature Reshaping| Encoder</br>Decoder | Transformer| U-Net|
 | HybridMT-ESTAN [19]| Classification<br>Segmentation| Parallel| Feature Reshaping<br>Fusing| Encoder| Swin Transformer| ResNet|
 | ChexViT [20]| Classification| Sequential | Feature Reshaping<br>Positional Encoding | Encoder    | Vision Transformer| CheXNet [49]|
 | TECNN [21] | Classification | Parallel| Feature Reshaping<br>Fusing| Encoder| Vision Transformer| DenseNet  |
@@ -40,10 +40,10 @@ Studies that are grouped based on the targeted application, Hybrid architecture,
 | ViT-V-Net [28] | Registration| Sequential | Feature Reshaping<br>Positional Encoding | Encoder    | Vision Transformer | Specialized CNN |
 | Transmorph [29] |Registration| Sequential | Feature Reshaping | Encoder | Swin Transformer | U-Net |
 | ResViT [30] | Image Synthesis | Sequential   | Feature Reshaping | Encoder | Vision Transformer| Specialized CNN |
-| TransCT [31]| Restoration| Parallel | Feature Reshaping | Encoder/Decoder | Vision Transformer | Specialized CNN |
+| TransCT [31]| Restoration| Parallel | Feature Reshaping | Encoder</br>Decoder | Vision Transformer | Specialized CNN |
 | Multi-View ViT [32]| Combining Views | Sequential   | Feature Reshaping | Encoder | Cross View-Attention | ResNet |
 | AlignTransformer [33]| Report Generation| Sequential   | Feature Reshaping | Encoder | Align Hierarchical-Attention | ResNet      |
-| R2Gen [34]| Report Generation | Sequential | Feature Reshaping | Encoder Decoder | Vision Transformer         | Pretrained (ResNet, VGG) |
+| R2Gen [34]| Report Generation | Sequential | Feature Reshaping | Encoder Decoder | Vision Transformer | Pretrained (ResNet, VGG) |
 
 
 
