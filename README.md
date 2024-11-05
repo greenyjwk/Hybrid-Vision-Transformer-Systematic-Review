@@ -5,24 +5,24 @@
 It performed based on the criteria defined in Sec.2.2. Studies are grouped based on the targeted
 applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respectively.
 
-| Reference                        | Application  | Architecture | Merging                       | Transf. Util. | Transf. Backbone              | CNN Backbone                          |
+| Reference                        | Application  | Architecture | Merging                       | Transf. Util. | Transf. Backbone | CNN Backbone |
 |----------------------------------|--------------|--------------|-------------------------------|---------------|--------------------------------|---------------------------------------|
-| U-net Transformer [1]           | Segmentation | Sequential   | Fusing                        | Encoder       | Multi-head Cross-Attention     | U-Net                                 |
-| UTNet [2]                         | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Multi-head Self-Attention     | U-Net                                 |
-| CPT U-Net [3]                   | Segmentation | Parallel     | Fusing                        | Encoder Decoder | Pyramid Vision Transformer   | U-Net                                 |
-| UNETR [4]                        | Segmentation | Sequential   | Feature Reshaping             | Encoder       | Vision Transformer            | U-Net                                 |
-| Swin UNETR [5]                   | Segmentation | Sequential   | Feature Reshaping Fusing      | Encoder       | Swin Transformer              | U-Net                                 |
-| COTRNet [6]                      | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Light Vision Transformer      | U-Net                                 |
-| Cotr [7]                         | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Deformable Transformer-encoder | U-Net                               |
-| Hybrid ViT and CNN [8]           | Segmentation | Sequential   | Fusing                        | Encoder Decoder | Vision Transformer           | U-Net                                 |
-| TransBTS [9]                     | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Light Vision Transformer      | U-Net                                 |
+| U-net Transformer [1]           | Segmentation | Sequential   | Fusing                        | Encoder       | Multi-head Cross-Attention     | U-Net |
+| UTNet [2]                         | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Multi-head Self-Attention     | U-Net |
+| CPT U-Net [3]                   | Segmentation | Parallel     | Fusing                        | Encoder Decoder | Pyramid Vision Transformer   | U-Net |
+| UNETR [4]                        | Segmentation | Sequential   | Feature Reshaping             | Encoder       | Vision Transformer            | U-Net |
+| Swin UNETR [5]                   | Segmentation | Sequential   | Feature Reshaping Fusing      | Encoder       | Swin Transformer              | U-Net |
+| COTRNet [6]                      | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Light Vision Transformer      | U-Net |
+| Cotr [7]                         | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Deformable Transformer-encoder | U-Net |
+| Hybrid ViT and CNN [8]           | Segmentation | Sequential   | Fusing                        | Encoder Decoder | Vision Transformer           | U-Net |
+| TransBTS [9]                     | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Light Vision Transformer      | U-Net |
 | Trans U-Net [10]                  | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Vision Transformer           | U-Net |
 | Bitr U-Net [11]                   | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Vision Transformer           | U-Net, CBAM |
 | After U-Net [12] | Segmentation | Sequential   | Feature Reshaping | Encoder | Axial Fusion Transformer      | U-Net |
 | WAU [13] | Segmentation | Sequential | Feature Reshaping | Decoder | Window Attention | Group Conv, Depthwise Separable CNN |
-| HCTN [14] | Segmentation | Parallel | Feature Reshaping | Encoder | Vision Transformer            | U-Net|
-| Hybrid CNN-Transformer Non-Contrast [15] | Segmentation | Parallel | Fusing                        | Encoder       | Hierarchical Transformer      | U-Net|
-| D-TA U-net [16]                  | Segmentation | Parallel     | Fusing                              | Encoder       | Swin Transformer             | U-Net       |
+| HCTN [14] | Segmentation | Parallel | Feature Reshaping | Encoder | Vision Transformer | U-Net|
+| Hybrid CNN-Transformer Non-Contrast [15] | Segmentation | Parallel | Fusing | Encoder | Hierarchical Transformer | U-Net|
+| D-TA U-net [16] | Segmentation | Parallel | Fusing | Encoder | Swin Transformer | U-Net |
 | MLABHCTMI [17]| Segmentation | Parallel| Fusing|Encoder/Decoder | Transformer| U-Net|
 | UCTNet [18]| Segmentation | Sequential| Feature Reshaping| Encoder/Decoder | Transformer| U-Net|
 | HybridMT-ESTAN [19]| Classification/Segmentation| Parallel| Feature Reshaping Fusing| Encoder| Swin Transformer| ResNet|
@@ -32,15 +32,15 @@ applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respe
 | 3D Transformer GAN [23] | Reconstruction| Sequential   | Feature Reshaping Positional Encoding | Encoder Decoder | Vision Transformer| Specialized CNN|
 | T2Net [24] |Reconstruction| Sequential|| Encoder| Task-Attention| Specialized CNN |
 | MIST-Net [25] | Reconstruction | Sequential| Feature Reshaping Fusing | Decoder| Soft-Attention Swin Transformer | Specialized CNN|
-| Ultrasound ViT [30] | Regression | Sequential   | Feature Mapping                     | Encoder       | Bert                         | ResNetAE/DenseNet                  |
-| DTN [25] |Regression| Sequential   | Feature Reshaping Fusing            | Encoder/Decoder | Dual Transformer            | Specialized CNN                    |
-| ViT-V-Net [26] | Registration| Sequential   | Feature Reshaping Positional Encoding | Encoder    | Vision Transformer           | Specialized CNN |
-| Transmorph [23] |Registration| Sequential   | Feature Reshaping                   | Encoder       | Swin Transformer             | U-Net                              |
-| ResViT [29] | Image Synthesis                 | Sequential   | Feature Reshaping| Encoder       | Vision Transformer| Specialized CNN |
-| TransCT [27]| Restoration| Parallel     | Feature Reshaping                   | Encoder Decoder | Vision Transformer         | Specialized CNN |
-| Multi-View ViT [26]| Combining Views                 | Sequential   | Feature Reshaping                   | Encoder       | Cross View-Attention         | ResNet |
-| AlignTransformer [52]| Report Generation| Sequential   | Feature Reshaping                   | Encoder       | Align Hierarchical-Attention | ResNet      |
-| R2Gen [28]| Report Generation | Sequential   | Feature Reshaping                   | Encoder Decoder | Vision Transformer         | Pretrained (ResNet, VGG) |
+| Ultrasound ViT [26] | Regression | Sequential   | Feature Mapping | Encoder       | Bert                         | ResNetAE/DenseNet                  |
+| DTN [27] |Regression| Sequential   | Feature Reshaping Fusing | Encoder/Decoder | Dual Transformer            | Specialized CNN                    |
+| ViT-V-Net [28] | Registration| Sequential   | Feature Reshaping Positional Encoding | Encoder    | Vision Transformer           | Specialized CNN |
+| Transmorph [29] |Registration| Sequential   | Feature Reshaping                   | Encoder       | Swin Transformer             | U-Net                              |
+| ResViT [30] | Image Synthesis                 | Sequential   | Feature Reshaping| Encoder       | Vision Transformer| Specialized CNN |
+| TransCT [31]| Restoration| Parallel     | Feature Reshaping                   | Encoder Decoder | Vision Transformer         | Specialized CNN |
+| Multi-View ViT [32]| Combining Views                 | Sequential   | Feature Reshaping                   | Encoder       | Cross View-Attention         | ResNet |
+| AlignTransformer [33]| Report Generation| Sequential   | Feature Reshaping                   | Encoder       | Align Hierarchical-Attention | ResNet      |
+| R2Gen [34]| Report Generation | Sequential   | Feature Reshaping                   | Encoder Decoder | Vision Transformer         | Pretrained (ResNet, VGG) |
 
 
 
@@ -50,40 +50,40 @@ benchmarking criteria.
 
 |Reference                  |Modality       |Parameters(M)|Inference Time(GFLOPs)|Sample Size                              |Performance                        |
 |---------------------------|---------------|-------------|-----------------------|------------------------------------------|-----------------------------------|
-|U-net Transformer [36]     |CT             |42.5         |-                      |TCIA (public): 82 total                  |Dice: 0.78                         |
-|UTNet [7]                  |MR             |14.4         |40.9                   |M&MS [53] Training: 150/Test: 200        |Dice: 0.88                         |
-|CPT U-Net [20]             |CT             |12.3         |150.6                  |Synapse (public) 30                      |Dice: 0.81                         |
-|UNETR [37]                 |CT/MRI         |92.5         |41                     |BTCV:20 objects, MSD: 484 ct/MRI, BraTS21|Dice: 0.89                         |
-|Swin UNETR [38]            |MRI            |61.9         |394.8                  |Training: 1251/Val: 219                 |Dice: 0.92                         |
-|COTRNet [21]               |CT             |-            |-                      |Kits21                                   |Dice: 0.61                         |
-|Cotr [39]                  |CT             |41.9         |399.2                  |Training: 240/Val: 60                   |Dice: 0.61                         |
-|Hybrid ViT and CNN [24]    |MRI            |-            |-                      |Synapse, BraTS21                        |Dice: 0.92                         |
-|TransBTS [10]              |MRI            |32.9         |333.0                  |Training: 335/Val: 125                  |Dice: 0.87                         |
-|Trans U-Net [22]           |CT/MRI         |105.1        |1186.9                 |Training: 18/Val: 12                    |Dice: 0.77                         |
-|Bitr U-Net [40]            |MRI            |43.4         |186.2                  |BraTS21                                 |Dice: 0.92                         |
-|After U-Net [41]           |MRI            |-            |-                      |BCV Training: 18/Test: 12               |-                                 |
-|WAU [42]                   |CT/MRI         |21.8         |15.94                  |Synapse: 18                             |Dice: 0.83                         |
-|HCTN [43]                  |X-Ray/MRI      |-            |-                      |STS Training: 45/Val: 5                 |Dice: 0.88                         |
-|Hybrid CNN-Transformer [44]|CT             |38.94        |3.75                   |AISD Training: 305/Val: 52              |Dice: 0.61                         |
-|D-TrAttNet [45]            |CT             |70.13        |28.47                  |BM Seg Dataset 1517                     |Dice: 0.84                         |
-|MLABHCTMI [46]             |MRI            |1.8          |4.6                    |ACDC Training: 140/Val: 20/Test: 40     |Dice: 0.86                         |
-|UCTNet [47]                |CT/MRI/Demoscopic|58.8       |21.7                   |ACDC Training: 70/Val: 10/Test: 20      |Dice: 0.92                         |
-|HybridMT-ESTAN [48]        |Ultrasound     |-            |-                      |Private Dataset Total: 3320             |AUC: 0.82                          |
-|ChexViT [17]               |X-Ray          |-            |-                      |ChestX-Ray14[54] Training: 36,524/Val: 25,596|AUC: 0.83               |
-|TECNN [19]                 |MRI            |22.5         |-                      |BraTS, Figshare Training: 998+/Val: 285+/Test: 142+|Precision: 0.967 F1-Score: 0.968|
-|SLATER [55]                |MRI            |36.0         |174.8                  |IXI Training: 25/Val: 5/Test: 10        |SSIM(72): 97.77                    |
-|3D Transformer GAN [18]    |PET            |42.0         |-                      |Brain MRI                               |SSIM: 0.956                        |
-|T2Net [31]                 |MRI            |1.4          |140.3                  |IXI Dataset, Clinical MRI Dataset Training: 420/Val: 60/Test: 120|SSIM: 0.87|
-|MIST-Net [50]              |CT             |11.8         |576.0                  |2016 NIH AAPM/Mayo Challenge Training: 474 sinograms|MAE: 6.77                 |
-|Ultrasound ViT [30]        |Echocardiogram |346.8        |521.7                  |Echonet-Dynamic Training: 7522/Val: 1504/Test: 1504|Dice: 0.76                 |
-|DTN [25]                   |MRI            |-            |-                      |Oasis, IXI BraTS Training: 256/Val: 19/Test: 150|Dice: 0.72                 |
-|ViT-V-Net [51]             |MRI            |31.5         |778.4                  |In-House T1 Weight Training: 182/Val: 26/Test: 52|Dice: 0.72                  |
-|Transmorph [23]            |CT/MRI/XCAT    |46.7         |1427.0                 |Oasis Training: 256/Val: 19/Test: 150   |Dice: 0.816                        |
-|ResViT [29]                |CT/MRI         |123.4        |973.0                  |IXI, BrainS, CT-MRI Training: 59/Val: 92/Test: 42|SSIM T1, T2->FLAIR: 0.836   |
-|TransCT [27]               |CT             |12.6         |598.7                  |2016 NIH AAPM/Mayo Challenge Training: 7 patients/Val: 1/Test: 2|SSIM: 0.92             |
-|Multi-View ViT [26]        |X-Ray          |23.6         |9.5                    |CheXpert Training: 23628 (16810 patients)|AUC: 0.834                        |
-|AlignTransformer [52]      |X-Ray          |-            |-                      |MIMIC CXR Training: 368,960 Val: 2,991 Test: 5,159|BLEU1: 0.378              |
-|R2Gen [28]                 |X-Ray          |78.4         |35.4                   |MIMIC CXR Training: 368,960 Val: 2,991 Test: 5,159|BLEU1: 0.353              |
+|U-net Transformer [1]     |CT             |42.5         |-                      |TCIA (public): 82 total                  |Dice: 0.78                         |
+|UTNet [2]                  |MR             |14.4         |40.9                   |M&MS [53] Training: 150/Test: 200        |Dice: 0.88                         |
+|CPT U-Net [3]             |CT             |12.3         |150.6                  |Synapse (public) 30                      |Dice: 0.81                         |
+|UNETR [4]                 |CT/MRI         |92.5         |41                     |BTCV:20 objects, MSD: 484 ct/MRI, BraTS21|Dice: 0.89                         |
+|Swin UNETR [5]            |MRI            |61.9         |394.8                  |Training: 1251/Val: 219                 |Dice: 0.92                         |
+|COTRNet [6]               |CT             |-            |-                      |Kits21                                   |Dice: 0.61                         |
+|Cotr [7]                  |CT             |41.9         |399.2                  |Training: 240/Val: 60                   |Dice: 0.61                         |
+|Hybrid ViT and CNN [8]    |MRI            |-            |-                      |Synapse, BraTS21                        |Dice: 0.92                         |
+|TransBTS [9]              |MRI            |32.9         |333.0                  |Training: 335/Val: 125                  |Dice: 0.87                         |
+|Trans U-Net [10]           |CT/MRI         |105.1        |1186.9                 |Training: 18/Val: 12                    |Dice: 0.77                         |
+|Bitr U-Net [11]            |MRI            |43.4         |186.2                  |BraTS21                                 |Dice: 0.92                         |
+|After U-Net [12]           |MRI            |-            |-                      |BCV Training: 18/Test: 12               |-                                 |
+|WAU [13]                   |CT/MRI         |21.8         |15.94                  |Synapse: 18                             |Dice: 0.83                         |
+|HCTN [14]                  |X-Ray/MRI      |-            |-                      |STS Training: 45/Val: 5                 |Dice: 0.88                         |
+|Hybrid CNN-Transformer [15]|CT             |38.94        |3.75                   |AISD Training: 305/Val: 52              |Dice: 0.61                         |
+|D-TrAttNet [16]            |CT             |70.13        |28.47                  |BM Seg Dataset 1517                     |Dice: 0.84                         |
+|MLABHCTMI [17]             |MRI            |1.8          |4.6                    |ACDC Training: 140/Val: 20/Test: 40     |Dice: 0.86                         |
+|UCTNet [18]                |CT/MRI/Demoscopic|58.8       |21.7                   |ACDC Training: 70/Val: 10/Test: 20      |Dice: 0.92                         |
+|HybridMT-ESTAN [19]        |Ultrasound     |-            |-                      |Private Dataset Total: 3320             |AUC: 0.82                          |
+|ChexViT [20]               |X-Ray          |-            |-                      |ChestX-Ray14[54] Training: 36,524/Val: 25,596|AUC: 0.83               |
+|TECNN [21]                 |MRI            |22.5         |-                      |BraTS, Figshare Training: 998+/Val: 285+/Test: 142+|Precision: 0.967 F1-Score: 0.968|
+|SLATER [22]                |MRI            |36.0         |174.8                  |IXI Training: 25/Val: 5/Test: 10        |SSIM(72): 97.77                    |
+|3D Transformer GAN [23]    |PET            |42.0         |-                      |Brain MRI                               |SSIM: 0.956                        |
+|T2Net [24]                 |MRI            |1.4          |140.3                  |IXI Dataset, Clinical MRI Dataset Training: 420/Val: 60/Test: 120|SSIM: 0.87|
+|MIST-Net [25]              |CT             |11.8         |576.0                  |2016 NIH AAPM/Mayo Challenge Training: 474 sinograms|MAE: 6.77                 |
+|Ultrasound ViT [26]        |Echocardiogram |346.8        |521.7                  |Echonet-Dynamic Training: 7522/Val: 1504/Test: 1504|Dice: 0.76                 |
+|DTN [27]                   |MRI            |-            |-                      |Oasis, IXI BraTS Training: 256/Val: 19/Test: 150|Dice: 0.72                 |
+|ViT-V-Net [28]             |MRI            |31.5         |778.4                  |In-House T1 Weight Training: 182/Val: 26/Test: 52|Dice: 0.72                  |
+|Transmorph [29]            |CT/MRI/XCAT    |46.7         |1427.0                 |Oasis Training: 256/Val: 19/Test: 150   |Dice: 0.816                        |
+|ResViT [30]                |CT/MRI         |123.4        |973.0                  |IXI, BrainS, CT-MRI Training: 59/Val: 92/Test: 42|SSIM T1, T2->FLAIR: 0.836   |
+|TransCT [31]               |CT             |12.6         |598.7                  |2016 NIH AAPM/Mayo Challenge Training: 7 patients/Val: 1/Test: 2|SSIM: 0.92             |
+|Multi-View ViT [32]        |X-Ray          |23.6         |9.5                    |CheXpert Training: 23628 (16810 patients)|AUC: 0.834                        |
+|AlignTransformer [33]      |X-Ray          |-            |-                      |MIMIC CXR Training: 368,960 Val: 2,991 Test: 5,159|BLEU1: 0.378              |
+|R2Gen [34]                 |X-Ray          |78.4         |35.4                   |MIMIC CXR Training: 368,960 Val: 2,991 Test: 5,159|BLEU1: 0.353              |
 
 
 ### Comparative analysis of the existing hybrid architectures
