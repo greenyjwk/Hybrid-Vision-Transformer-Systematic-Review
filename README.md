@@ -1,7 +1,7 @@
 # Systematic Review of Hybrid Vision Transformer Architectures for Radiological Image Analysis
 
-It is official repository for the research paper "Systematic Review of Hybrid Vision Transformer
-Architectures for Radiological Image Analysis"
+It is the official repository for the research paper "Systematic Review of Hybrid Vision Transformer
+Architectures for Radiological Image Analysis". It has the list of the 34 papers that have been used as the benchmark for the review paper.
 
 
 
