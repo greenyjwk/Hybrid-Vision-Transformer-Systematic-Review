@@ -6,13 +6,12 @@ Architectures for Radiological Image Analysis". It has the list of the 34 papers
 
 
 ### Comparative analysis of the existing hybrid architectures
-It performed based on the criteria defined in Sec.2.2. Studies are grouped based on the targeted
-applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respectively.
+Studies that are grouped based on the targeted application, Hybrid architecture, Way that it connects CNN and ViT.
 
 | Reference                        | Application  | Architecture | Merging                       | Transf. Util. | Transf. Backbone | CNN Backbone |
 |----------------------------------|--------------|--------------|-------------------------------|---------------|--------------------------------|---------------------------------------|
 | U-net Transformer [1]           | Segmentation | Sequential   | Fusing                        | Encoder       | Multi-head Cross-Attention     | U-Net |
-| UTNet [2]                         | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Multi-head Self-Attention     | U-Net |
+| UTNet [2]                         | Segmentation | Sequential   | Feature Reshaping, Positional Encoding | Encoder | Multi-head Self-Attention     | U-Net |
 | CPT U-Net [3]                   | Segmentation | Parallel     | Fusing                        | Encoder Decoder | Pyramid Vision Transformer   | U-Net |
 | UNETR [4]                        | Segmentation | Sequential   | Feature Reshaping             | Encoder       | Vision Transformer            | U-Net |
 | Swin UNETR [5]                   | Segmentation | Sequential   | Feature Reshaping Fusing      | Encoder       | Swin Transformer              | U-Net |
