@@ -1,5 +1,9 @@
 # Systematic Review of Hybrid Vision Transformer Architectures for Radiological Image Analysis
 
+It is official repository for the research paper "Systematic Review of Hybrid Vision Transformer
+Architectures for Radiological Image Analysis"
+
+
 
 ### Comparative analysis of the existing hybrid architectures
 It performed based on the criteria defined in Sec.2.2. Studies are grouped based on the targeted
