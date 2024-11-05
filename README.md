@@ -12,7 +12,7 @@ Studies that are grouped based on the targeted application, Hybrid architecture,
 |----------------------------------|--------------|--------------|-------------------------------|---------------|--------------------------------|---------------------------------------|
 | U-net Transformer [1]           | Segmentation | Sequential   | Fusing | Encoder | Multi-head Cross-Attention | U-Net |
 | UTNet [2]                         | Segmentation | Sequential   | Feature Reshaping <br> Positional Encoding| Encoder | Multi-head Self-Attention | U-Net |
-| CPT U-Net [3]                   | Segmentation | Parallel     | Fusing | Encoder Decoder | Pyramid Vision Transformer | U-Net |
+| CPT U-Net [3]                   | Segmentation | Parallel     | Fusing | Encoder<br>Decoder | Pyramid Vision Transformer | U-Net |
 | UNETR [4]                        | Segmentation | Sequential   | Feature Reshaping | Encoder | Vision Transformer | U-Net |
 | Swin UNETR [5]                   | Segmentation | Sequential   | Feature Reshaping<br>Fusing | Encoder | Swin Transformer | U-Net |
 | COTRNet [6]                      | Segmentation | Sequential   | Feature Reshapin<br>Positional Encoding | Encoder | Light Vision Transformer      | U-Net |
