@@ -32,7 +32,7 @@ Studies that are grouped based on the targeted application, Hybrid architecture,
 | ChexViT [20]| Classification| Sequential | Feature Reshaping<br>Positional Encoding | Encoder    | Vision Transformer| CheXNet [49]|
 | TECNN [21] | Classification | Parallel| Feature Reshaping<br>Fusing| Encoder| Vision Transformer| DenseNet  |
 | SLATER [22] | Classification | Sequential| Feature Reshaping<br>Positional Encoding | Decoder   | Cross-Attention| Specialized CNN|
-| 3D Transformer GAN [23] | Reconstruction| Sequential | Feature Reshaping<br>Positional Encoding | Encoder Decoder | Vision Transformer| Specialized CNN|
+| 3D Transformer GAN [23] | Reconstruction| Sequential | Feature Reshaping<br>Positional Encoding | Encoder</br>Decoder | Vision Transformer| Specialized CNN|
 | T2Net [24] |Reconstruction| Sequential|| Encoder| Task-Attention| Specialized CNN |
 | MIST-Net [25] | Reconstruction | Sequential| Feature Reshaping<br>Fusing | Decoder| Soft-Attention Swin Transformer | Specialized CNN|
 | Ultrasound ViT [26] | Regression | Sequential   | Feature Mapping | Encoder | Bert | ResNetAE/DenseNet |
