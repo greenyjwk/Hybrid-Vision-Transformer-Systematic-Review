@@ -26,7 +26,7 @@ Studies that are grouped based on the targeted application, Hybrid architecture,
 | HCTN [14]                         | Segmentation | Parallel | Feature Reshaping | Encoder | Vision Transformer | U-Net|
 | Hybrid CNN-Transformer Non-Contrast [15] | Segmentation | Parallel | Fusing | Encoder | Hierarchical Transformer | U-Net|
 | D-TA U-net [16]                   | Segmentation | Parallel | Fusing | Encoder | Swin Transformer | U-Net |
-| MLABHCTMI [17]                    | Segmentation | Parallel| Fusing|Encoder/Decoder | Transformer| U-Net|
+| MLABHCTMI [17]                    | Segmentation | Parallel| Fusing|Encoder</br>Decoder | Transformer| U-Net|
 | UCTNet [18]                        | Segmentation | Sequential| Feature Reshaping| Encoder</br>Decoder | Transformer| U-Net|
 | HybridMT-ESTAN [19]| Classification<br>Segmentation| Parallel| Feature Reshaping<br>Fusing| Encoder| Swin Transformer| ResNet|
 | ChexViT [20]| Classification| Sequential | Feature Reshaping<br>Positional Encoding | Encoder    | Vision Transformer| CheXNet [49]|
