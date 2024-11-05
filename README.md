@@ -5,7 +5,7 @@ Architectures for Radiological Image Analysis". It has the list of the 34 papers
 
 
 
-### Comparative analysis of the existing hybrid architectures
+## Comparative analysis of the existing hybrid architectures
 Studies that are grouped based on the targeted application, Hybrid architecture, Way that it connects CNN and ViT.
 
 | Reference                        | Application  | Architecture | Merging                       | Transf. Util. | Transf. Backbone | CNN Backbone |
@@ -47,7 +47,7 @@ Studies that are grouped based on the targeted application, Hybrid architecture,
 
 
 
-### Benchmark Table
+## Benchmark Table
 Benchmarking criteria definition. Inaccessibility of the models are marked as ’–’ which restrict to calculate the
 benchmarking criteria.
 
@@ -89,10 +89,9 @@ benchmarking criteria.
 |R2Gen [34]                 |X-Ray          |78.4         |35.4                   |MIMIC CXR Training: 368,960 Val: 2,991 Test: 5,159|BLEU1: 0.353              |
 
 
-### Comparative analysis of the existing hybrid architectures
+## Comparative analysis of the existing hybrid architectures
 It performed based on the criteria defined in Sec.2.2. Studies are grouped based on the targeted
 applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respectively.
-
 
 |Model|Benchmarking rating|Target dimension|Parameter(M)|Inference time(GFLOPs)|Sample Size|Community adoption rate|Performance|
 |-----|------------------|----------------|------------|---------------------|-----------|---------------------|------------|
