@@ -17,7 +17,7 @@ Studies that are grouped based on the targeted application, Hybrid architecture,
 | Swin UNETR [5]                   | Segmentation | Sequential   | <nobr>Feature Reshaping </nobr> <nobr>Fusing</nobr> | Encoder | Swin Transformer | U-Net |
 | COTRNet [6]                      | Segmentation | Sequential   | Feature Reshapin<br>Positional Encoding | Encoder | Light Vision Transformer      | U-Net |
 | Cotr [7]                         | Segmentation | Sequential   | Feature Reshaping<br>Positional Encoding | Encoder | Deformable Transformer-encoder | U-Net |
-| Hybrid ViT and CNN [8]           | Segmentation | Sequential   | Fusing | Encoder<br>Decoder | Vision Transformer | U-Net |
+| Hybrid ViT and CNN [8]           | Segmentation | Sequential   | Fusing | Encoder<br>Decoder | Vision Transformer | U-Net | 
 | TransBTS [9]                     | Segmentation | Sequential   | Feature Reshaping<br>Positional Encoding | Encoder | Light Vision Transformer | U-Net |
 | Trans U-Net [10]                  | Segmentation | Sequential   | Feature Reshaping<br>Positional Encoding | Encoder | Vision Transformer | U-Net |
 | Bitr U-Net [11]                   | Segmentation | Sequential   | Feature Reshaping<br>Positional Encoding | Encoder | Vision Transformer | U-Net</br>CBAM |
