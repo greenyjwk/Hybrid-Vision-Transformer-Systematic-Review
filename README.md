@@ -93,16 +93,16 @@ applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respe
 
 |Model|Benchmarking rating|Target dimension|Parameter(M)|Inference time(GFLOPs)|Sample Size|Community adoption rate|Performance|
 |-----|------------------|----------------|------------|---------------------|-----------|---------------------|------------|
-|U-net Transformer|Opaque|High|-50|-|Public,single|91|80|
-|UTNet|High|High|-50|-50|Public,multiple|166|80|
-|CPT U-Net|Medium|High|-100|-150|Public,multiple|2.06|80|
-|UNETR|High|High|-100|-50|Public,multiple|957|80|
-|Swin UNETR|Low|High|-100|-150|Public,single|356.33|90|
-|COTRNet|Opaque|High|-|-|Public,single|7|80|
-|Cotr|Low|High|-50|-150|Public,single|189.33|80|
-|Hybrid ViT and CNN|Opaque|High|-|-|Public,single|1.5|80|
-|TransBTS|High|High|-50|-300|Public,multiple|9|80|
-|Trans U-Net|Medium|High|-100|-1000|Public,multiple|1456|-70|
+|U-net Transformer[1]|Opaque|High|-50|-|Public,single|91|80|
+|UTNet[2]|High|High|-50|-50|Public,multiple|166|80|
+|CPT U-Net[3]|Medium|High|-100|-150|Public,multiple|2.06|80|
+|UNETR[4]|High|High|-100|-50|Public,multiple|957|80|
+|Swin UNETR[5]|Low|High|-100|-150|Public,single|356.33|90|
+|COTRNet[6]|Opaque|High|-|-|Public,single|7|80|
+|Cotr[7]|Low|High|-50|-150|Public,single|189.33|80|
+|Hybrid ViT and CNN[8]|Opaque|High|-|-|Public,single|1.5|80|
+|TransBTS[9]|High|High|-50|-300|Public,multiple|9|80|
+|Trans U-Net[10]|Medium|High|-100|-1000|Public,multiple|1456|-70|
 |Bitr U-Net|Low|High|-50|-150|Public,single|31.33|90|
 |After U-Net|Opaque|High|-50|-|Public,single|76.5|80|
 |WAU|High|High|-50|-50|Public,multiple|27.5|80|
