@@ -18,9 +18,9 @@ applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respe
 | TransBTS [9]                     | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Light Vision Transformer      | U-Net                                 |
 | Trans U-Net [10]                  | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Vision Transformer           | U-Net |
 | Bitr U-Net [11]                   | Segmentation | Sequential   | Feature Reshaping Positional Encoding | Encoder | Vision Transformer           | U-Net, CBAM |
-| After U-Net [12]                  | Segmentation | Sequential   | Feature Reshaping             | Encoder       | Axial Fusion Transformer      | U-Net |
-| WAU [13]                          | Segmentation | Sequential   | Feature Reshaping             | Decoder       | Window Attention              | Group Conv, Depthwise Separable CNN   |
-| HCTN [14]                         | Segmentation | Parallel     | Feature Reshaping             | Encoder       | Vision Transformer            | U-Net|
+| After U-Net [12] | Segmentation | Sequential   | Feature Reshaping | Encoder | Axial Fusion Transformer      | U-Net |
+| WAU [13] | Segmentation | Sequential | Feature Reshaping | Decoder | Window Attention | Group Conv, Depthwise Separable CNN |
+| HCTN [14] | Segmentation | Parallel | Feature Reshaping | Encoder | Vision Transformer            | U-Net|
 | Hybrid CNN-Transformer Non-Contrast [15] | Segmentation | Parallel | Fusing                        | Encoder       | Hierarchical Transformer      | U-Net|
 | D-TA U-net [16]                  | Segmentation | Parallel     | Fusing                              | Encoder       | Swin Transformer             | U-Net       |
 | MLABHCTMI [17]| Segmentation | Parallel| Fusing|Encoder/Decoder | Transformer| U-Net|
