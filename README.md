@@ -54,10 +54,10 @@ benchmarking criteria.
 The library 'torchsummary' (https://github.com/sksq96/pytorch-summary/tree/master) was used for model parameter size calculation. And the library 'THOP: PyTorch-OpCounter'(https://github.com/Lyken17/pytorch-OpCounter) was used for FLOPs(G) calculation. 
 
 
-### Example of Parameter Size and FLOPs(G) Calculation with TransUNet(https://github.com/Beckschen/TransUNet)
+### Example of Parameter Size and FLOPs(G) Calculation(with TransUNet(https://github.com/Beckschen/TransUNet))
 
+- Installation
 ```
-# Installation
 pip install pytorch-summary
 pip install thop
 ```
