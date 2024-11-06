@@ -62,19 +62,18 @@ pip install pytorch-summary
 pip install thop
 ```
 
+- Parameter Size Example
 ```python
 # train.py / line 90
-# FLOPs(G) Example
 import torchsummary
 ...
 net = ViT_seg(config_vit, img_size=args.img_size, num_classes=config_vit.n_classes).cuda()
 summary(net)
 ```
 
-
+- FLOPs(G) Example
 ```python
 # trainer.py / line 55
-# FLOPs(G) Example
 import thop
 ...
 for epoch_num in iterator:
