@@ -54,6 +54,36 @@ benchmarking criteria.
 The library 'torchsummary' (https://github.com/sksq96/pytorch-summary/tree/master) was used for model parameter size calculation. And the library 'THOP: PyTorch-OpCounter'(https://github.com/Lyken17/pytorch-OpCounter) was used for FLOPs(G) calculation. 
 
 
+# Example of Parameter Size and FLOPs(G) Calculation with TransUNet(https://github.com/Beckschen/TransUNet)
+
+```
+# Installation
+pip install pytorch-summary
+pip install thop
+```
+
+```python
+# FLOPs(G) Example
+import torchsummary
+...
+net = ViT_seg(config_vit, img_size=args.img_size, num_classes=config_vit.n_classes).cuda()
+summary(net)
+```
+
+```python
+# FLOPs(G) Example
+import thop
+...
+for epoch_num in iterator:
+    for _, sampled_batch in enumerate(trainloader):
+        image_batch, label_batch = sampled_batch['image'], sampled_batch['label']
+        image_batch, label_batch = image_batch.cuda(), label_batch.cuda()
+        macs, _ = profile(model, inputs=(image_batch, ))
+        gflops = macs_to_gflops(macs)
+        print(f"FLOPs(G): {gflops}")  # 2 GFLOPs
+        sys.exit()
+```
+
 |Reference                  |Modality       |Parameters(M)|Inference Time(GFLOPs)|Sample Size                              |Performance                        |
 |---------------------------|---------------|-------------|-----------------------|------------------------------------------|-----------------------------------|
 |U-net Transformer [1]     |CT             |42.5         |-                      |TCIA (public): 82 total                  |Dice: 0.78                         |
