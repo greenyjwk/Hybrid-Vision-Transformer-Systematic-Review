@@ -76,13 +76,18 @@ summary(net)
 # trainer.py / line 55
 import thop
 ...
+def macs_to_gflops(macs):
+    flops = 2 * macs
+    gflops = flops / (10**9)
+    return gflops
+
 for epoch_num in iterator:
     for _, sampled_batch in enumerate(trainloader):
         image_batch, label_batch = sampled_batch['image'], sampled_batch['label']
         image_batch, label_batch = image_batch.cuda(), label_batch.cuda()
         macs, _ = profile(model, inputs=(image_batch, ))
         gflops = macs_to_gflops(macs)
-        print(f"FLOPs(G): {gflops}")  # 2 GFLOPs
+        print(f"FLOPs(G): {gflops}")
         sys.exit()
 ```
 
