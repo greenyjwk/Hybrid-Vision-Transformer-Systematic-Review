@@ -90,8 +90,6 @@ benchmarking criteria.
 
 
 ## Comparative analysis of the existing hybrid architectures
-It performed based on the criteria defined in Sec.2.2. Studies are grouped based on the targeted
-applications. ‘Transf.’, ‘Util.’ refers to Transformer and Utility respectively.
 
 |Model|Benchmarking rating|Target dimension|Parameter(M)|Inference time(GFLOPs)|Sample Size|Community adoption rate|Performance|
 |-----|------------------|----------------|------------|---------------------|-----------|---------------------|------------|
