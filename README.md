@@ -48,13 +48,13 @@ Studies that are grouped based on the targeted application, Hybrid architecture,
 
 
 ## Benchmark Table
-Benchmarking criteria definition. Inaccessibility of the models are marked as ’–’ which restrict to calculate the
-benchmarking criteria.
+Benchmarking criteria definition. Inaccessibility of the models are marked as ’–’ which restrict to calculate the benchmarking criteria.
+
+#### FLOPs(G) and Parameter Size Calculation
 
 The library 'torchsummary' (https://github.com/sksq96/pytorch-summary/tree/master) was used for model parameter size calculation. And the library 'THOP: PyTorch-OpCounter'(https://github.com/Lyken17/pytorch-OpCounter) was used for FLOPs(G) calculation. 
 
-
-### Example of Parameter Size and FLOPs(G) Calculation_TransUNet (https://github.com/Beckschen/TransUNet)
+#### Example: TransUNet (https://github.com/Beckschen/TransUNet)
 
 - Installation
 ```
