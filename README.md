@@ -51,6 +51,9 @@ Studies that are grouped based on the targeted application, Hybrid architecture,
 Benchmarking criteria definition. Inaccessibility of the models are marked as ’–’ which restrict to calculate the
 benchmarking criteria.
 
+For the calculation of the Parameters and FLOPs(G), The library 'THOP: PyTorch-OpCounter'(https://github.com/Lyken17/pytorch-OpCounter) was used. 
+
+
 |Reference                  |Modality       |Parameters(M)|Inference Time(GFLOPs)|Sample Size                              |Performance                        |
 |---------------------------|---------------|-------------|-----------------------|------------------------------------------|-----------------------------------|
 |U-net Transformer [1]     |CT             |42.5         |-                      |TCIA (public): 82 total                  |Dice: 0.78                         |
