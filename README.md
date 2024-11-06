@@ -54,7 +54,7 @@ benchmarking criteria.
 The library 'torchsummary' (https://github.com/sksq96/pytorch-summary/tree/master) was used for model parameter size calculation. And the library 'THOP: PyTorch-OpCounter'(https://github.com/Lyken17/pytorch-OpCounter) was used for FLOPs(G) calculation. 
 
 
-# Example of Parameter Size and FLOPs(G) Calculation with TransUNet(https://github.com/Beckschen/TransUNet)
+### Example of Parameter Size and FLOPs(G) Calculation with TransUNet(https://github.com/Beckschen/TransUNet)
 
 ```
 # Installation
@@ -63,6 +63,7 @@ pip install thop
 ```
 
 ```python
+# train.py / line 90
 # FLOPs(G) Example
 import torchsummary
 ...
@@ -70,7 +71,9 @@ net = ViT_seg(config_vit, img_size=args.img_size, num_classes=config_vit.n_class
 summary(net)
 ```
 
+
 ```python
+# trainer.py / line 55
 # FLOPs(G) Example
 import thop
 ...
