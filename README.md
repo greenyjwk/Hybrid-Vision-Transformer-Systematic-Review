@@ -124,7 +124,8 @@ for epoch_num in iterator:
 |R2Gen [34]                 |X-Ray          |78.4         |35.4                   |MIMIC CXR Training: 368,960 Val: 2,991 Test: 5,159|BLEU1: 0.353              |
 
 
-## Comparative analysis of the existing hybrid architectures
+## Ranking Table
+ranking for benchmarking rating definition. Inaccessibility of the models are marked as’–’and ranked as‘opaque’ which restrict to calculate the benchmarking criteria. Citation for community adaptation rate is calculated as of 10 Oct, 24.
 
 |Model|Benchmarking rating|Target dimension|Parameter(M)|Inference time(GFLOPs)|Sample Size|Community adoption rate|Performance|
 |-----|------------------|----------------|------------|---------------------|-----------|---------------------|------------|
