@@ -74,7 +74,7 @@ summary(net)
 - FLOPs(G) Example
 ```python
 # trainer.py / line 55
-import thop
+from thop import profile
 ...
 for epoch_num in iterator:
     for _, sampled_batch in enumerate(trainloader):
