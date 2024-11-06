@@ -166,7 +166,7 @@ ranking for benchmarking rating definition. Inaccessibility of the models are ma
 |R2Gen[34]|Medium|Low|-100|-50|Public,multiple|122.67|-50(BLEU)|
 
 
-## Reference
+## References
 1. U-net transformer: Self and cross attention for medical image segmentation
 2. UTNet: a hybrid transformer architecture for edical image segmentation
 3. Cross Pyramid Transformer makes U-net stronger in medical image segmentation
